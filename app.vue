@@ -3,4 +3,5 @@
     <NavigationComponent />
     <NuxtPage />
   </div>
+  <FooterComponent />
 </template>
