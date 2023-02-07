@@ -67,15 +67,16 @@ function toggle() {
       <div class="pt-16">
         <h3 class="px-4 my-3 font-semibold">Categories</h3>
         <ul class="space-y-1 px-4 py-2.5">
-          <li value="#Fashion Design">#Fashion Design</li>
-          <li value="#Textile Design">#Textile Design</li>
+          <li value="#Denim">#Denim</li>
+          <li value="#Media & Journalism">#Media &amp; Journalism</li>
           <li value="#Sustainability">#Sustainability</li>
+          <li value="#Talks & Conferences">#Talks &amp; Conferences</li>
           <li value="#Trend Reports">#Trend Reports</li>
         </ul>
       </div>
       <div class="px-4 pt-10">
         <a
-          mail="julietamercerat@gmail.com"
+          href="mailto:julietamercerat@gmail.com"
           target="_blank"
           class="hover:text-gray-600"
         >
