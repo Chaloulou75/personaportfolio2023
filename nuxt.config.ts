@@ -4,11 +4,11 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
-      title: "Persona Portfolio",
+      title: "Persona Portfolio | Julieta Mercerat",
       meta: [
         {
           name: "description",
-          content: "Persona Portfolio",
+          content: "Diseñadora de moda y textil",
         },
       ],
       link: [
