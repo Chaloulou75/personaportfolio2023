@@ -15,7 +15,7 @@ const showWork = computed(() => {
   >
     <div class="w-full mx-auto mb-12">
       <img
-        src="/img/proyectos/diauno/1.jpg"
+        :src="showWork.images[0].href"
         class="mx-auto shadow-lg shadow-sky-800/60 sm:[95vw] md:[100vw] lg:[100vw]"
       />
     </div>

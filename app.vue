@@ -1,6 +1,6 @@
 <template>
   <div class="relative flex flex-col min-h-screen bg-white font-montserrat">
-    <div class="flex-1 md:flex">
+    <div class="md:flex">
       <NavigationComponent />
       <NuxtPage />
     </div>

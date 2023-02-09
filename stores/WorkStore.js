@@ -87,6 +87,63 @@ export let works = reactive([
     background2: "bg-gray-900",
     description:
       "Central Denim is a personalised course that offers training in the market and consumer trends, branding, optimization of the jeanswear production chain, training fashion and textile professionals to work in the industry. From specialising in fabrics, introducing indigo dyes, yarn, effects, constructions to the product, through the stages of manufacturing, washing and sustainable processes. Central denim is part of the consultancy firm Be Disobedient&#39;s training programme. I coordinate the UDEM edition where we trained teachers from the Mexican University UDEM in Denim and sustainability.",
+    images: [
+      {
+        id: 1,
+        name: "uno",
+        href: "/img/proyectos/diados/1.jpg",
+      },
+      {
+        id: 2,
+        name: "dos",
+        href: "/img/proyectos/diados/2.jpg",
+      },
+      {
+        id: 3,
+        name: "tres",
+        href: "/img/proyectos/diados/3.jpg",
+      },
+      {
+        id: 4,
+        name: "cuatro",
+        href: "/img/proyectos/diados/4.jpg",
+      },
+      {
+        id: 5,
+        name: "cinco",
+        href: "/img/proyectos/diados/5.jpg",
+      },
+      {
+        id: 6,
+        name: "seis",
+        href: "/img/proyectos/diados/6.jpg",
+      },
+      {
+        id: 7,
+        name: "siete",
+        href: "/img/proyectos/diados/7.jpg",
+      },
+      {
+        id: 8,
+        name: "ocho",
+        href: "/img/proyectos/diados/8.jpg",
+      },
+      {
+        id: 9,
+        name: "nueve",
+        href: "/img/proyectos/diados/9.jpg",
+      },
+    ],
+    tookPartIn: [
+      "Trend research & Moodboards",
+      "Garments collection coordination",
+      "Tech packs design",
+      "Assistance in creative direction",
+      "Innovation & Material research (fibres and chemicals)",
+      "Textile Design, fabrics development",
+      "Trims & buttons development",
+    ],
+    programs: ["Excel", "Illustrator", "Power Point"],
   },
   {
     name: "3",
