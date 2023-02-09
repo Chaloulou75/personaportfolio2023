@@ -1,8 +1,6 @@
 <script setup>
 const route = useRoute();
-// const props = defineProps({
-//   work: Object,
-// });
+console.log(route.params);
 </script>
 <template>
   <div
@@ -15,12 +13,9 @@ const route = useRoute();
       />
     </div>
     <div class="w-full px-4 mb-12 md:px-0">
-      <h1 class="my-4 font-semibold">{{ route.params.work }}</h1>
+      <h1 class="my-4 font-semibold">{{ route.params.slug }}</h1>
       <p class="mb-4">
-        Descipción de trabajo, explicacion y areas en las que se desarrollo. Art
-        directing, designing and developing an artist’s showcase website. In
-        progress, currently desktop only. Incorporates Lottie, scroll, and mouse
-        over interactions. Si es posible, poner el link del trabajo real.
+        {{ route.params.description }}
       </p>
       <div class="flex flex-col justify-between md:flex-row">
         <div class="font-semibold">Programs</div>

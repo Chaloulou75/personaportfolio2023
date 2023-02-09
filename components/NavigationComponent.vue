@@ -51,7 +51,7 @@ function toggle() {
       <!-- nav -->
       <nav>
         <NuxtLink
-          to="/"
+          to="/works"
           class="block rounded py-2.5 px-4 uppercase transition duration-200 hover:bg-blue-700 hover:text-white focus:outline-none"
         >
           Portfolio
