@@ -1021,4 +1021,312 @@ export let works = reactive([
     tookPartIn: ["Experimenting with mushrooms", "Growing materials"],
     programs: [],
   },
+  {
+    name: "Denimcracia",
+    slug: "denimcracia",
+    year: "2021",
+    categories: ["#Talks & Conferences"],
+    background: "bg-dia-1 from-black to-gray-800",
+    background2: "bg-gray-900",
+    description:
+      "In the context of Buenos Aires Fashion Week, I won a space as a speaker for the introduction programme. With Ana Paula Alves, we developed a special presentation to talk about the history of the Denim Industry and some important facts to know about this amazing product that we both love. The name of the talk refers to the DEMOCRATIC aspect of this product, and how jeans are an essential part of every wardrobe. It also mentions the fact that jeans had a place in many historical moments and revolutions, for example when it became the hero material in rock band attire all over the world, when people searched for peace at Woodstock, and when it walked towards equality with the English feminist.",
+    images: [
+      {
+        id: 1,
+        name: "uno",
+        href: "/img/proyectos/diauno/1.jpg",
+      },
+      {
+        id: 2,
+        name: "dos",
+        href: "/img/proyectos/diauno/2.jpg",
+      },
+      {
+        id: 3,
+        name: "tres",
+        href: "/img/proyectos/diauno/3.jpg",
+      },
+      {
+        id: 4,
+        name: "cuatro",
+        href: "/img/proyectos/diauno/4.jpg",
+      },
+      {
+        id: 5,
+        name: "cinco",
+        href: "/img/proyectos/diauno/5.jpg",
+      },
+      {
+        id: 6,
+        name: "seis",
+        href: "/img/proyectos/diauno/6.jpg",
+      },
+      {
+        id: 7,
+        name: "siete",
+        href: "/img/proyectos/diauno/7.jpg",
+      },
+      {
+        id: 8,
+        name: "ocho",
+        href: "/img/proyectos/diauno/8.jpg",
+      },
+      {
+        id: 9,
+        name: "nueve",
+        href: "/img/proyectos/diauno/9.jpg",
+      },
+      {
+        id: 10,
+        name: "dies",
+        href: "/img/proyectos/diauno/10.jpg",
+      },
+      {
+        id: 11,
+        name: "once",
+        href: "/img/proyectos/diauno/11.jpg",
+      },
+    ],
+    tookPartIn: [
+      "History investigation and research",
+      "Video Conference presentation design",
+      "Speaker in the conference",
+    ],
+    programs: ["Keynote", "Photoshop", "Illustrator"],
+  },
+  {
+    name: "Virtual talks",
+    slug: "virtual-talks",
+    year: "2021",
+    categories: ["#Talks & Conferences"],
+    background: "bg-dia-3 from-blue-500 to-bluejuli",
+    background2: "bg-blue-900",
+    description:
+      "This is a virtual conference programme dedicated to the denim industry. I developed this program with the marketing team during my time spent as a Jeanswear Product Manager in Santista/Tavex. Throughout these talks we exchanged knowledge with industry experts inside and outside Santista to learn more about different subjects such as trends, technology, innovation and sustainability. International guest companies performed during the program, as LECTRA, TRIBUTO LAB, and B CERTIFICATION.",
+    images: [
+      {
+        id: 1,
+        name: "uno",
+        href: "/img/proyectos/diatres/1.jpg",
+      },
+      {
+        id: 2,
+        name: "dos",
+        href: "/img/proyectos/diatres/2.jpg",
+      },
+      {
+        id: 3,
+        name: "tres",
+        href: "/img/proyectos/diatres/3.jpg",
+      },
+      {
+        id: 4,
+        name: "cuatro",
+        href: "/img/proyectos/diatres/4.jpg",
+      },
+      {
+        id: 5,
+        name: "cinco",
+        href: "/img/proyectos/diatres/5.jpg",
+      },
+      {
+        id: 6,
+        name: "seis",
+        href: "/img/proyectos/diatres/6.jpg",
+      },
+      {
+        id: 7,
+        name: "siete",
+        href: "/img/proyectos/diatres/7.jpg",
+      },
+      {
+        id: 8,
+        name: "ocho",
+        href: "/img/proyectos/diatres/8.jpg",
+      },
+      {
+        id: 9,
+        name: "nueve",
+        href: "/img/proyectos/diatres/9.jpg",
+      },
+      {
+        id: 10,
+        name: "dies",
+        href: "/img/proyectos/diatres/10.jpg",
+      },
+      {
+        id: 11,
+        name: "once",
+        href: "/img/proyectos/diatres/11.jpg",
+      },
+      {
+        id: 12,
+        name: "diesdos",
+        href: "/img/proyectos/diatres/12.jpg",
+      },
+      {
+        id: 13,
+        name: "diestres",
+        href: "/img/proyectos/diatres/13.jpg",
+      },
+      {
+        id: 14,
+        name: "diescuatro",
+        href: "/img/proyectos/diatres/14.jpg",
+      },
+      {
+        id: 15,
+        name: "diescinco",
+        href: "/img/proyectos/diatres/15.jpg",
+      },
+      {
+        id: 16,
+        name: "diesseis",
+        href: "/img/proyectos/diatres/16.jpg",
+      },
+      {
+        id: 17,
+        name: "diessiete",
+        href: "/img/proyectos/diatres/17.jpg",
+      },
+      {
+        id: 18,
+        name: "diesocho",
+        href: "/img/proyectos/diatres/18.jpg",
+      },
+      {
+        id: 19,
+        name: "diesnueve",
+        href: "/img/proyectos/diatres/19.jpg",
+      },
+      {
+        id: 20,
+        name: "veinte",
+        href: "/img/proyectos/diatres/20.jpg",
+      },
+    ],
+    tookPartIn: ["Founder", "Creative Director", "Planning coordination"],
+    programs: ["YouTube"],
+  },
+  {
+    name: "Blue key",
+    slug: "blue-key",
+    year: "2019",
+    categories: ["#Trend Reports"],
+    background: "bg-dia-4 from-yellow-500 to-yellowjuli",
+    background2: "bg-yellowjuli",
+    description:
+      "BLUEKEY is a semestral Trend Report with more than 150 pages made for the virtual event TRIPPIN’ BLUE. This event is focused on Denim business in the LATAM region, with presentations from professionals and companies all around the world. In this report we analyse macrotrends and microtrends, covering the most relevant fashion runways, emerging designers and denim events. I specialised in denim trend forecasting and participated as a speaker in the trend video conference, hosting up to 200 participants. I also designed a magazine for the event which was printed to send to the most important clients, and sent in digital format to all participants (+1.100 participants).",
+    images: [
+      {
+        id: 1,
+        name: "uno",
+        href: "/img/proyectos/diacuatro/1.jpg",
+      },
+      {
+        id: 2,
+        name: "dos",
+        href: "/img/proyectos/diacuatro/2.jpg",
+      },
+      {
+        id: 3,
+        name: "tres",
+        href: "/img/proyectos/diacuatro/3.jpg",
+      },
+      {
+        id: 4,
+        name: "cuatro",
+        href: "/img/proyectos/diacuatro/4.jpg",
+      },
+      {
+        id: 5,
+        name: "cinco",
+        href: "/img/proyectos/diacuatro/5.jpg",
+      },
+      {
+        id: 6,
+        name: "seis",
+        href: "/img/proyectos/diacuatro/6.jpg",
+      },
+      {
+        id: 7,
+        name: "siete",
+        href: "/img/proyectos/diacuatro/7.jpg",
+      },
+    ],
+    tookPartIn: [
+      "Editorial design",
+      "Trend forecasting",
+      "Video Conference presentation",
+    ],
+    programs: ["InDesign", "Keynote", "Photoshop", "Illustrator"],
+  },
+  {
+    name: "Trend Review Tavex",
+    slug: "trend-review-tavex",
+    year: "2020",
+    categories: ["#Trend Reports"],
+    background: "bg-dia-5 from-gray-900 to-black",
+    background2: "bg-gray-800",
+    description:
+      "This is a trend magazine specialised in the denim industry made for Santista/Tavex. Santista is a Denim Mill that not only sells fabrics, they focus on supporting their clients, and provide different tools to improve their collections. This trend report has projections and a deep analysis from the local market and global consumers’ behaviours to understand the COVID crisis, and to have a better handling of the situation. This magazine was launched in the year 2020; the objective was to analyse the current year, focusing on 2021 and making projections for 2022. We tried to provide our clients with inspiration and confidence in such a difficult moment.",
+    images: [
+      {
+        id: 1,
+        name: "uno",
+        href: "/img/proyectos/diacinco/1.jpg",
+      },
+      {
+        id: 2,
+        name: "dos",
+        href: "/img/proyectos/diacinco/2.jpg",
+      },
+      {
+        id: 3,
+        name: "tres",
+        href: "/img/proyectos/diacinco/3.jpg",
+      },
+      {
+        id: 4,
+        name: "cuatro",
+        href: "/img/proyectos/diacinco/4.jpg",
+      },
+      {
+        id: 5,
+        name: "cinco",
+        href: "/img/proyectos/diacinco/5.jpg",
+      },
+      {
+        id: 6,
+        name: "seis",
+        href: "/img/proyectos/diacinco/6.jpg",
+      },
+      {
+        id: 7,
+        name: "siete",
+        href: "/img/proyectos/diacinco/7.jpg",
+      },
+      {
+        id: 8,
+        name: "ocho",
+        href: "/img/proyectos/diacinco/8.jpg",
+      },
+      {
+        id: 9,
+        name: "nueve",
+        href: "/img/proyectos/diacinco/9.jpg",
+      },
+      {
+        id: 10,
+        name: "dies",
+        href: "/img/proyectos/diacinco/10.jpg",
+      },
+    ],
+    tookPartIn: [
+      "Editorial design",
+      "Writing and editing",
+      "Research and trend analysis",
+    ],
+    programs: ["InDesign", "Photoshop", "Illustrator"],
+  },
 ]);
