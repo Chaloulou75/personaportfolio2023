@@ -962,4 +962,63 @@ export let works = reactive([
     ],
     programs: ["Google project", "Excel"],
   },
+  {
+    name: "Sistemas materiales",
+    slug: "sistemas-materiales",
+    year: "2021",
+    categories: ["#Sustainability"],
+    background: "bg-dia-2 from-red-600 to-redjuli",
+    background2: "bg-gray-900",
+    description:
+      "I experimented with mycelial materials, as part of the biofabrication workshop &quot;chromatic expressions. During the meetings I grew different bio-agglomerated materials, for each of them we used mycelium from different fungi, which resulted in pieces with different colourations. The course was dictated in the framework of the University of Buenos Aires, and the picture is the result of the collective work.",
+    images: [
+      {
+        id: 1,
+        name: "uno",
+        href: "/img/proyectos/diados/1.jpg",
+      },
+      {
+        id: 2,
+        name: "dos",
+        href: "/img/proyectos/diados/2.jpg",
+      },
+      {
+        id: 3,
+        name: "tres",
+        href: "/img/proyectos/diados/3.jpg",
+      },
+      {
+        id: 4,
+        name: "cuatro",
+        href: "/img/proyectos/diados/4.jpg",
+      },
+      {
+        id: 5,
+        name: "cinco",
+        href: "/img/proyectos/diados/5.jpg",
+      },
+      {
+        id: 6,
+        name: "seis",
+        href: "/img/proyectos/diados/6.jpg",
+      },
+      {
+        id: 7,
+        name: "siete",
+        href: "/img/proyectos/diados/7.jpg",
+      },
+      {
+        id: 8,
+        name: "ocho",
+        href: "/img/proyectos/diados/8.jpg",
+      },
+      {
+        id: 9,
+        name: "nueve",
+        href: "/img/proyectos/diados/9.jpg",
+      },
+    ],
+    tookPartIn: ["Experimenting with mushrooms", "Growing materials"],
+    programs: [],
+  },
 ]);
