@@ -69,12 +69,12 @@ const filterWorksByCategory = computed(() => {
         ></div>
         <div class="relative flex flex-col items-start h-full font-ubuntu">
           <h2
-            class="px-4 py-4 text-3xl font-bold leading-normal tracking-wider text-white"
+            class="px-4 py-4 text-3xl font-semibold leading-normal tracking-wider text-white bold"
           >
-            <span class="text-lg">{{ work.name }}</span>
+            <span class="text-sm">{{ work.name }}</span>
           </h2>
           <p
-            class="px-4 py-1 text-lg leading-normal tracking-wider text-white lg:py-0"
+            class="px-4 py-1 text-base leading-normal tracking-wider text-white lg:py-0"
           >
             {{ work.year }}
           </p>
