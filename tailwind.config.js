@@ -13,6 +13,12 @@ module.exports = {
       fontFamily: {
         montserrat: ["Montserrat"],
       },
+      fontSize: {
+        "11xl": "11rem",
+        "12xl": "12rem",
+        "16xl": "16rem",
+        "17xl": "17rem",
+      },
       backgroundImage: {
         "dia-1": "url('/img/proyectos/dias/dia1.jpg')",
         "dia-2": "url('/img/proyectos/dias/dia2.jpg')",
@@ -26,6 +32,16 @@ module.exports = {
         bluejuli: "#008aae",
         redjuli: "#f23941",
         yellowjuli: "#FFDF00", //#fed718
+        background: {
+          primary: "var(--bg-background-primary)",
+          secondary: "var(--bg-background-secondary)",
+          ternary: "var(--bg-background-ternary)",
+        },
+        copy: {
+          primary: "var(--text-copy-primary)",
+          secondary: "var(--text-copy-secondary)",
+          ternary: "var(--text-copy-ternary)",
+        },
       },
     },
   },
