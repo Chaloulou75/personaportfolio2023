@@ -1,13 +1,20 @@
 <script setup>
 import { ref } from "vue";
+import { onClickOutside } from "@vueuse/core";
+
 const isOpen = ref(false);
+const target = ref(null);
+
+onClickOutside(target, (event) => {
+  isOpen.value = false;
+});
 
 function toggle() {
   isOpen.value = !isOpen.value;
 }
 </script>
 <template>
-  <div>
+  <div ref="target">
     <div
       class="flex items-center justify-between px-4 py-2 text-gray-900 bg-white md:hidden"
     >

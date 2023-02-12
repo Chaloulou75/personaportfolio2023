@@ -42,7 +42,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@vite-pwa/nuxt", "@nuxtjs/google-fonts"],
+  modules: ["@vite-pwa/nuxt", "@nuxtjs/google-fonts", "@vueuse/nuxt"],
   googleFonts: {
     download: true,
     preconnect: true,
