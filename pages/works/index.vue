@@ -30,7 +30,7 @@ const filterWorksByCategory = computed(() => {
   if (category.value == "") {
     return works;
   } else {
-    return works.filter((work) => work.category.includes(category.value));
+    return works.filter((work) => work.categories.includes(category.value));
   }
 });
 </script>
@@ -55,22 +55,22 @@ const filterWorksByCategory = computed(() => {
       </select>
     </div>
     <div
-      class="container relative grid flex-1 w-full min-h-full grid-cols-1 gap-2 p-10 mx-auto my-8 text-white auto-cols-auto md:grid-cols-2 lg:grid-cols-3 lg:gap-4"
+      class="container relative grid w-full grid-cols-1 gap-2 mx-auto my-8 text-white auto-cols-auto md:grid-cols-2 lg:grid-cols-3 lg:gap-4"
     >
       <NuxtLink
         v-for="(work, index) in filterWorksByCategory"
         :key="index"
         :to="'/works/' + work.slug"
-        class="relative transition duration-300 ease-in-out bg-center bg-cover dias-moove max-h-72 hover:rotate-3 hover:bg-gradient-to-br lg:hover:rotate-6"
+        class="relative transition duration-300 ease-in-out bg-center bg-cover max-h-72 hover:rotate-3 hover:bg-gradient-to-br lg:hover:rotate-6"
         :class="work.background"
       >
         <div
           class="absolute inset-0 bg-opacity-25"
           :class="work.background2"
         ></div>
-        <div class="relative flex flex-col items-start h-full font-ubuntu">
+        <div class="relative flex flex-col items-start h-full">
           <h2
-            class="px-4 py-4 text-3xl font-bold leading-normal tracking-wider text-white"
+            class="px-4 py-4 text-lg font-semibold leading-normal tracking-wider text-white"
           >
             <span class="text-lg">{{ work.name }}</span>
           </h2>
