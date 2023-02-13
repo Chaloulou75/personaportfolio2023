@@ -60,16 +60,16 @@ module.exports = {
             transform: "translate(-220%, 200%) rotate(360deg)",
           },
           "100%": {
-            transform: "translate(350%, 15%) rotate(0deg)",
+            transform: "translate(50%, -225%) rotate(0deg)",
           },
         },
         letterE: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(-40%, 80%) rotate(-90deg)",
+            transform: "translate(-140%, 80%) rotate(-180deg)",
           },
           "100%": {
-            transform: "translate(210%, -65%)  rotate(90deg)",
+            transform: "translate(210%, -125%) rotate(90deg)",
           },
         },
         letterR: {
@@ -78,7 +78,7 @@ module.exports = {
             transform: "translate(300%, -60%) rotate(360deg)",
           },
           "100%": {
-            transform: "translate(40%, 28%) rotate(0deg)",
+            transform: "translate(620%, -900%) rotate(90deg)",
           },
         },
         letterS: {
@@ -87,7 +87,7 @@ module.exports = {
             transform: "translate(300%, -30%)  rotate(-90deg)",
           },
           "100%": {
-            transform: "translate(60%, -40%) rotate(90deg)",
+            transform: "translate(-360%, 140%) rotate(90deg)",
           },
         },
         letterO: {

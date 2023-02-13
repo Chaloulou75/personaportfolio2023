@@ -13,7 +13,7 @@
           <li>
             <a
               href="https://www.instagram.com/personamercerat/"
-              class="hover:text-gray-500"
+              class="hover:text-gray-500 cursor-mano"
             >
               <svg
                 class="w-6 h-6"
@@ -33,7 +33,7 @@
             <a
               href="https://www.behance.net/personaportfolio"
               target="_blank"
-              class="hover:text-gray-500"
+              class="hover:text-gray-500 cursor-mano"
             >
               <svg
                 class="w-6 h-7"
@@ -54,7 +54,7 @@
             <a
               href="https://vimeo.com/personaportfolio"
               target="_blank"
-              class="hover:text-gray-500"
+              class="hover:text-gray-500 cursor-mano"
             >
               <svg
                 class="w-6 h-6"
@@ -74,7 +74,7 @@
             <a
               href="https://www.linkedin.com/in/julieta-mercerat/"
               target="_blank"
-              class="hover:text-gray-500"
+              class="hover:text-gray-500 cursor-mano"
             >
               <svg
                 class="w-6 h-6"
@@ -94,7 +94,7 @@
             <a
               href="https://issuu.com/personadisenio/docs/entrega_completa_comprimido-comprimido"
               target="_blank"
-              class="hover:text-gray-500"
+              class="hover:text-gray-500 cursor-mano"
             >
               <svg
                 class="w-6 h-6"
@@ -114,7 +114,7 @@
             <a
               href="julietamercerat@gmail.com"
               target="_blank"
-              class="hover:text-gray-500"
+              class="hover:text-gray-500 cursor-mano"
             >
               <svg
                 class="w-6 h-6"
@@ -141,7 +141,7 @@
           <a
             href="https://charles-jeandey.com"
             target="_blank"
-            class="text-gray-400 hover:text-gray-200"
+            class="text-gray-400 hover:text-gray-200 cursor-mano"
             >Charles Jeandey</a
           >
         </p>

@@ -43,8 +43,8 @@
                   fill-rule="evenodd"
                   d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
                   clip-rule="evenodd"
-                /></svg
-            ></span>
+                /></svg></span
+            >Speaker at industry events, and denim training at universities
           </p>
           <p class="text-base indent-4">
             <span class="font-semibold"
@@ -58,8 +58,8 @@
                   fill-rule="evenodd"
                   d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
                   clip-rule="evenodd"
-                /></svg
-            ></span>
+                /></svg></span
+            >Cool Hunter, trend reporting and content creation
           </p>
           <p class="text-base indent-4">
             <span class="font-semibold"
@@ -73,8 +73,9 @@
                   fill-rule="evenodd"
                   d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
                   clip-rule="evenodd"
-                /></svg
-            ></span>
+                /></svg></span
+            >Consultant and freelance denim designer for brands that want to
+            improve their collections
           </p>
           <p class="text-base indent-4">
             <span class="font-semibold"
@@ -88,8 +89,8 @@
                   fill-rule="evenodd"
                   d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
                   clip-rule="evenodd"
-                /></svg
-            ></span>
+                /></svg></span
+            >Sustainable strategy consultant
           </p>
         </div>
       </div>
