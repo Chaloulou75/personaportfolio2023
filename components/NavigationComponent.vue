@@ -21,13 +21,16 @@ function toggle() {
       <!-- logo -->
       <NuxtLink to="/">
         <LogoPersona
-          class="h-10 px-4 focus:outline-none"
+          class="h-10 px-4 focus:outline-none cursor-mano"
           :class="isOpen ? 'hidden' : ''"
         />
       </NuxtLink>
 
       <!-- mobile menu button -->
-      <button class="p-4 focus:bg-gray-200 focus:outline-none" @click="toggle">
+      <button
+        class="p-4 focus:bg-gray-200 focus:outline-none cursor-mano"
+        @click="toggle"
+      >
         <svg
           class="w-5 h-5"
           fill="none"
@@ -52,20 +55,20 @@ function toggle() {
       <!-- logo -->
       <NuxtLink to="/">
         <span class="sr-only">Home</span>
-        <LogoPersona class="h-10 px-4 focus:outline-none" />
+        <LogoPersona class="h-10 px-4 focus:outline-none cursor-mano" />
       </NuxtLink>
 
       <!-- nav -->
       <nav>
         <NuxtLink
           to="/works"
-          class="block rounded py-2.5 px-4 uppercase transition duration-200 hover:bg-blue-700 hover:text-white focus:outline-none"
+          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-200 hover:bg-blue-700 hover:text-white focus:outline-none"
         >
           Portfolio
         </NuxtLink>
         <NuxtLink
           to="/about"
-          class="block rounded py-2.5 px-4 uppercase transition duration-200 hover:bg-blue-700 hover:text-white focus:outline-none"
+          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-200 hover:bg-blue-700 hover:text-white focus:outline-none"
         >
           About
         </NuxtLink>
@@ -85,7 +88,7 @@ function toggle() {
         <a
           href="mailto:julietamercerat@gmail.com"
           target="_blank"
-          class="hover:text-gray-600"
+          class="hover:text-gray-600 cursor-mano"
         >
           <svg
             class="w-6 h-6 xl:h-10 xl:w-10"

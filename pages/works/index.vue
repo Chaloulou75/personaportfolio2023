@@ -61,7 +61,7 @@ const filterWorksByCategory = computed(() => {
         v-for="(work, index) in filterWorksByCategory"
         :key="index"
         :to="'/works/' + work.slug"
-        class="relative transition duration-300 ease-in-out bg-center bg-cover max-h-72 hover:rotate-3 hover:bg-gradient-to-br lg:hover:rotate-6"
+        class="relative transition duration-300 ease-in-out bg-center bg-cover cursor-mano max-h-72 hover:rotate-3 hover:bg-gradient-to-br lg:hover:rotate-6"
         :class="work.background"
       >
         <div

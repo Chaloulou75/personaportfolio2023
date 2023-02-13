@@ -1,5 +1,7 @@
 <script setup>
 import { ref, computed } from "vue";
+
+const show = ref(true);
 </script>
 
 <template>
@@ -9,18 +11,18 @@ import { ref, computed } from "vue";
     >
       <div class="fixed space-y-4">
         <div
-          class="w-5 h-5 transition duration-200 transform border shadow-lg bg-bluejuli border-bluejuli hover:scale-110 hover:-rotate-45"
+          class="w-5 h-5 transition duration-200 transform border shadow-lg bg-bluejuli border-bluejuli hover:scale-110 hover:-rotate-45 cursor-mano"
         ></div>
 
         <div
-          class="w-5 h-5 transition duration-200 transform border shadow-lg border-yellowjuli bg-yellowjuli hover:scale-110 hover:-rotate-45"
+          class="w-5 h-5 transition duration-200 transform border shadow-lg border-yellowjuli bg-yellowjuli hover:scale-110 hover:-rotate-45 cursor-mano"
         ></div>
 
         <div
-          class="w-5 h-5 transition duration-200 transform border shadow-lg border-redjuli bg-redjuli hover:scale-110 hover:-rotate-45"
+          class="w-5 h-5 transition duration-200 transform border shadow-lg border-redjuli bg-redjuli hover:scale-110 hover:-rotate-45 cursor-mano"
         ></div>
 
-        <div class="focus:outline-none">
+        <div class="focus:outline-none" @click="show = !show">
           <!-- py-3 mt-6 -ml-6 text-xs lg:text-base -->
           <svg
             class="w-5 h-5 animate-bounce"
@@ -49,13 +51,48 @@ import { ref, computed } from "vue";
     <div
       class="relative flex w-full h-full text-4xl font-bold text-black md:text-11xl md:h-1/3"
     >
-      <div class="absolute rotate-90 top-1/2 left-40">P</div>
-      <div class="absolute -rotate-90 left-1/4 -top-10">E</div>
-      <div class="absolute rotate-180 left-1/4 -bottom-10">R</div>
-      <div class="absolute top-0 rotate-90 left-1/2">S</div>
-      <div class="absolute bottom-0 left-1/2">O</div>
-      <div class="absolute right-1/4 top-10">N</div>
-      <div class="absolute rotate-90 right-1/4 bottom-5">A</div>
+      <div
+        class="absolute rotate-90 top-1/2 left-40 hover:animate-pause"
+        :class="{ 'animate-letterP': show }"
+      >
+        P
+      </div>
+      <div
+        class="absolute -rotate-90 left-1/4 -top-10 hover:animate-pause"
+        :class="{ 'animate-letterE': show }"
+      >
+        E
+      </div>
+      <div
+        class="absolute rotate-180 left-1/4 -bottom-10 hover:animate-pause"
+        :class="{ 'animate-letterR': show }"
+      >
+        R
+      </div>
+      <div
+        class="absolute top-0 left-1/2 hover:animate-pause"
+        :class="{ 'animate-letterS': show }"
+      >
+        S
+      </div>
+      <div
+        class="absolute bottom-0 left-1/2 hover:animate-pause"
+        :class="{ 'animate-letterO': show }"
+      >
+        O
+      </div>
+      <div
+        class="absolute -rotate-90 right-1/4 top-10 hover:animate-pause"
+        :class="{ 'animate-letterN': show }"
+      >
+        N
+      </div>
+      <div
+        class="absolute rotate-90 right-1/4 bottom-5 hover:animate-pause"
+        :class="{ 'animate-letterA': show }"
+      >
+        A
+      </div>
     </div>
   </div>
 </template>
