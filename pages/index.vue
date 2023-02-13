@@ -1,7 +1,27 @@
 <script setup>
-import { ref, computed } from "vue";
+import { ref, reactive, computed } from "vue";
 
-const show = ref(true);
+const moove = ref(true);
+
+const theme = ref("theme-inicio");
+// const themes = reactive([
+//   {
+//     name: "theme-inicio",
+//     background: "bg-white",
+//   },
+//   {
+//     name: "theme-blue",
+//     background: "bg-bluejuli",
+//   },
+//   {
+//     name: "theme-red",
+//     background: "bg-redjuli",
+//   },
+//   {
+//     name: "theme-yellow",
+//     background: "bg-yellowjuli",
+//   },
+// ]);
 </script>
 
 <template>
@@ -22,7 +42,7 @@ const show = ref(true);
           class="w-5 h-5 transition duration-200 transform border shadow-lg border-redjuli bg-redjuli hover:scale-110 hover:-rotate-45 cursor-mano"
         ></div>
 
-        <div class="focus:outline-none" @click="show = !show">
+        <div class="focus:outline-none" @click="moove = !moove">
           <!-- py-3 mt-6 -ml-6 text-xs lg:text-base -->
           <svg
             class="w-5 h-5 animate-bounce"
@@ -49,47 +69,47 @@ const show = ref(true);
     </div>
 
     <div
-      class="relative flex w-full h-full text-4xl font-bold text-black md:text-11xl md:h-1/3"
+      class="relative flex w-full h-full font-bold text-black text-7xl md:text-11xl md:h-1/3"
     >
       <div
         class="absolute rotate-90 top-1/2 left-40 hover:animate-pause"
-        :class="{ 'animate-letterP': show }"
+        :class="{ 'animate-letterP': moove }"
       >
         P
       </div>
       <div
         class="absolute -rotate-90 left-1/4 -top-10 hover:animate-pause"
-        :class="{ 'animate-letterE': show }"
+        :class="{ 'animate-letterE': moove }"
       >
         E
       </div>
       <div
         class="absolute rotate-180 left-1/4 -bottom-10 hover:animate-pause"
-        :class="{ 'animate-letterR': show }"
+        :class="{ 'animate-letterR': moove }"
       >
         R
       </div>
       <div
         class="absolute top-0 left-1/2 hover:animate-pause"
-        :class="{ 'animate-letterS': show }"
+        :class="{ 'animate-letterS': moove }"
       >
         S
       </div>
       <div
         class="absolute bottom-0 left-1/2 hover:animate-pause"
-        :class="{ 'animate-letterO': show }"
+        :class="{ 'animate-letterO': moove }"
       >
         O
       </div>
       <div
         class="absolute -rotate-90 right-1/4 top-10 hover:animate-pause"
-        :class="{ 'animate-letterN': show }"
+        :class="{ 'animate-letterN': moove }"
       >
         N
       </div>
       <div
         class="absolute rotate-90 right-1/4 bottom-5 hover:animate-pause"
-        :class="{ 'animate-letterA': show }"
+        :class="{ 'animate-letterA': moove }"
       >
         A
       </div>
