@@ -69,46 +69,46 @@ const theme = ref("theme-inicio");
     </div>
 
     <div
-      class="relative flex w-full h-full font-bold text-black text-7xl md:text-11xl md:h-1/3"
+      class="relative flex w-full h-screen font-bold text-black bg-gray-200 text-8xl md:text-11xl md:h-1/2"
     >
       <div
-        class="absolute rotate-90 top-1/2 left-40 hover:animate-pause"
+        class="absolute origin-center top-[10%] left-[45%] md:top-[-12%] md:left-[45%] hover:animate-pause"
         :class="{ 'animate-letterP': moove }"
       >
         P
       </div>
       <div
-        class="absolute -rotate-90 left-1/4 -top-10 hover:animate-pause"
+        class="absolute origin-center rotate-90 top-[25%] left-[22%] md:top-[10%] md:left-[25%] hover:animate-pause"
         :class="{ 'animate-letterE': moove }"
       >
         E
       </div>
       <div
-        class="absolute rotate-180 left-1/4 -bottom-10 hover:animate-pause"
+        class="absolute origin-center top-[37%] left-[4%] md:top-[35%] md:left-[5%] hover:animate-pause"
         :class="{ 'animate-letterR': moove }"
       >
         R
       </div>
       <div
-        class="absolute top-0 left-1/2 hover:animate-pause"
+        class="absolute origin-center rotate-90 top-[50%] left-[25%] md:top-[65%] md:left-[25%] hover:animate-pause"
         :class="{ 'animate-letterS': moove }"
       >
         S
       </div>
       <div
-        class="absolute bottom-0 left-1/2 hover:animate-pause"
+        class="absolute origin-center top-[63%] left-[45%] md:top-[80%] md:left-[45%] hover:animate-pause"
         :class="{ 'animate-letterO': moove }"
       >
         O
       </div>
       <div
-        class="absolute -rotate-90 right-1/4 top-10 hover:animate-pause"
+        class="absolute origin-center top-[40%] left-[65%] md:top-[10%] md:left-[70%] hover:animate-pause"
         :class="{ 'animate-letterN': moove }"
       >
         N
       </div>
       <div
-        class="absolute rotate-90 right-1/4 bottom-5 hover:animate-pause"
+        class="absolute -rotate-90 origin-center top-[25%] left-[65%] md:top-[65%] md:left-[70%] hover:animate-pause"
         :class="{ 'animate-letterA': moove }"
       >
         A

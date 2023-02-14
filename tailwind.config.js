@@ -15,6 +15,7 @@ module.exports = {
         montserrat: ["Montserrat"],
       },
       fontSize: {
+        "8xl": "5.25rem",
         "11xl": "11rem",
       },
       backgroundImage: {
@@ -55,66 +56,68 @@ module.exports = {
           },
         },
         letterP: {
-          "0%": {},
+          "0%": {
+            transform: "translate(0) rotate(0)",
+          },
           "40%, 60%": {
-            transform: "translate(-220%, 200%) rotate(360deg)",
+            transform: "translate(80%, 200%) rotate(360deg)",
           },
           "100%": {
-            transform: "translate(50%, -225%) rotate(0deg)",
+            transform: "translate(10%, 90%) rotate(0deg)",
           },
         },
         letterE: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(-140%, 80%) rotate(-180deg)",
+            transform: "translate(-60%, 170%) rotate(-180deg)",
           },
           "100%": {
-            transform: "translate(210%, -125%) rotate(90deg)",
+            transform: "translate(50%, -60%) rotate(90deg)",
           },
         },
         letterR: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(300%, -60%) rotate(360deg)",
+            transform: "translate(20%, -90%) rotate(360deg)",
           },
           "100%": {
-            transform: "translate(620%, -900%) rotate(90deg)",
+            transform: "translate(0%, 27%) rotate(90deg)",
           },
         },
         letterS: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(300%, -30%)  rotate(-90deg)",
+            transform: "translate(170%, -280%)  rotate(-90deg)",
           },
           "100%": {
-            transform: "translate(-360%, 140%) rotate(90deg)",
+            transform: "translate(-60%, 10%) rotate(90deg)",
           },
         },
         letterO: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(170%, -125%) rotate(720deg)",
+            transform: "translate(-60%, -200%) rotate(720deg)",
           },
           "100%": {
-            transform: "translate(-140%, 0%)  rotate(0deg)",
+            transform: "translate(-77%, 20%)  rotate(0deg)",
           },
         },
         letterN: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(-180%, -50%)  rotate(360deg)",
+            transform: "translate(20%, 180%)  rotate(360deg)",
           },
           "100%": {
-            transform: "translate(-230%, 86%)  rotate(0deg)",
+            transform: "translate(-75%, 55%)  rotate(0deg)",
           },
         },
         letterA: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(-350%, 50%) rotate(-360deg)",
+            transform: "translate(-180%, 120%) rotate(-360deg)",
           },
           "100%": {
-            transform: "translate(80%, -1%) rotate(0deg)",
+            transform: "translate(60%, -63%) rotate(0deg)",
           },
         },
       },
