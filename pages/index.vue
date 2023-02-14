@@ -73,43 +73,43 @@ const theme = ref("theme-inicio");
     >
       <div
         class="absolute origin-center top-[10%] left-[45%] md:top-[-12%] md:left-[45%] hover:animate-pause"
-        :class="{ 'animate-letterP': moove }"
+        :class="{ 'animate-mobileLetterP md:animate-letterP': moove }"
       >
         P
       </div>
       <div
         class="absolute origin-center rotate-90 top-[25%] left-[22%] md:top-[10%] md:left-[25%] hover:animate-pause"
-        :class="{ 'animate-letterE': moove }"
+        :class="{ 'animate-mobileLetterE md:animate-letterE': moove }"
       >
         E
       </div>
       <div
         class="absolute origin-center top-[37%] left-[4%] md:top-[35%] md:left-[5%] hover:animate-pause"
-        :class="{ 'animate-letterR': moove }"
+        :class="{ 'animate-mobileLetterR md:animate-letterR': moove }"
       >
         R
       </div>
       <div
         class="absolute origin-center rotate-90 top-[50%] left-[25%] md:top-[65%] md:left-[25%] hover:animate-pause"
-        :class="{ 'animate-letterS': moove }"
+        :class="{ 'animate-mobileLetterS md:animate-letterS': moove }"
       >
         S
       </div>
       <div
         class="absolute origin-center top-[63%] left-[45%] md:top-[80%] md:left-[45%] hover:animate-pause"
-        :class="{ 'animate-letterO': moove }"
+        :class="{ 'animate-mobileLetterO md:animate-letterO': moove }"
       >
         O
       </div>
       <div
         class="absolute origin-center top-[40%] left-[65%] md:top-[10%] md:left-[70%] hover:animate-pause"
-        :class="{ 'animate-letterN': moove }"
+        :class="{ 'animate-mobileLetterN md:animate-letterN': moove }"
       >
         N
       </div>
       <div
         class="absolute -rotate-90 origin-center top-[25%] left-[65%] md:top-[65%] md:left-[70%] hover:animate-pause"
-        :class="{ 'animate-letterA': moove }"
+        :class="{ 'animate-mobileLetterA md:animate-letterA': moove }"
       >
         A
       </div>
