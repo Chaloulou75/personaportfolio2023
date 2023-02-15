@@ -4,6 +4,18 @@ import { ref, reactive, computed } from "vue";
 const moove = ref(true);
 
 const theme = ref("theme-inicio");
+
+const colorTheme = computed(() => {
+  if (theme.value == "theme-blue") {
+    return "bg-bluejuli";
+  } else if (theme.value == "theme-red") {
+    return "bg-redjuli";
+  } else if (theme.value == "theme-yellow") {
+    return "bg-yellowjuli";
+  } else {
+    return "bg-white";
+  }
+});
 // const themes = reactive([
 //   {
 //     name: "theme-inicio",
@@ -25,20 +37,26 @@ const theme = ref("theme-inicio");
 </script>
 
 <template>
-  <div class="relative flex items-center justify-center flex-1 min-h-screen">
+  <div
+    class="relative flex items-center justify-center flex-1 min-h-screen"
+    :class="colorTheme"
+  >
     <div
       class="absolute inset-y-0 right-0 z-30 mt-16 mr-12 lg:mt-6 cursor-mano lg:mr-32"
     >
       <div class="fixed space-y-4">
         <div
+          @click="theme = 'theme-blue'"
           class="w-5 h-5 transition duration-200 transform border shadow-lg bg-bluejuli border-bluejuli hover:scale-110 hover:-rotate-45 cursor-mano"
         ></div>
 
         <div
+          @click="theme = 'theme-yellow'"
           class="w-5 h-5 transition duration-200 transform border shadow-lg border-yellowjuli bg-yellowjuli hover:scale-110 hover:-rotate-45 cursor-mano"
         ></div>
 
         <div
+          @click="theme = 'theme-red'"
           class="w-5 h-5 transition duration-200 transform border shadow-lg border-redjuli bg-redjuli hover:scale-110 hover:-rotate-45 cursor-mano"
         ></div>
 
