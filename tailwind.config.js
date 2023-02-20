@@ -15,7 +15,6 @@ module.exports = {
         montserrat: ["Montserrat"],
       },
       fontSize: {
-        "8xl": "5.25rem",
         "11xl": "11rem",
       },
       backgroundImage: {

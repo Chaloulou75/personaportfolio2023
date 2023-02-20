@@ -1,39 +1,21 @@
 <script setup>
-import { ref, reactive, computed } from "vue";
+import { ref, computed } from "vue";
 
 const moove = ref(true);
 
-const theme = ref("theme-inicio");
+const themeColor = ref("theme-inicio");
 
 const colorTheme = computed(() => {
-  if (theme.value == "theme-blue") {
+  if (themeColor.value == "theme-blue") {
     return "bg-bluejuli";
-  } else if (theme.value == "theme-red") {
+  } else if (themeColor.value == "theme-red") {
     return "bg-redjuli";
-  } else if (theme.value == "theme-yellow") {
+  } else if (themeColor.value == "theme-yellow") {
     return "bg-yellowjuli";
   } else {
     return "bg-white";
   }
 });
-// const themes = reactive([
-//   {
-//     name: "theme-inicio",
-//     background: "bg-white",
-//   },
-//   {
-//     name: "theme-blue",
-//     background: "bg-bluejuli",
-//   },
-//   {
-//     name: "theme-red",
-//     background: "bg-redjuli",
-//   },
-//   {
-//     name: "theme-yellow",
-//     background: "bg-yellowjuli",
-//   },
-// ]);
 </script>
 
 <template>
@@ -46,17 +28,17 @@ const colorTheme = computed(() => {
     >
       <div class="fixed space-y-4">
         <div
-          @click="theme = 'theme-blue'"
+          @click="themeColor = 'theme-blue'"
           class="w-5 h-5 transition duration-200 transform border shadow-lg bg-bluejuli border-bluejuli hover:scale-110 hover:-rotate-45 cursor-mano"
         ></div>
 
         <div
-          @click="theme = 'theme-yellow'"
+          @click="themeColor = 'theme-yellow'"
           class="w-5 h-5 transition duration-200 transform border shadow-lg border-yellowjuli bg-yellowjuli hover:scale-110 hover:-rotate-45 cursor-mano"
         ></div>
 
         <div
-          @click="theme = 'theme-red'"
+          @click="themeColor = 'theme-red'"
           class="w-5 h-5 transition duration-200 transform border shadow-lg border-redjuli bg-redjuli hover:scale-110 hover:-rotate-45 cursor-mano"
         ></div>
 
@@ -87,7 +69,7 @@ const colorTheme = computed(() => {
     </div>
 
     <div
-      class="relative flex w-full h-screen font-bold text-black text-8xl md:text-11xl md:h-1/2"
+      class="relative flex w-full h-screen font-bold text-black text-8xl md:text-9xl md:h-1/2"
     >
       <div
         class="absolute origin-center top-[10%] left-[45%] md:top-[-22%] md:left-[45%] hover:animate-pause"
