@@ -6,7 +6,7 @@
       <div class="w-full px-2 mx-auto mb-12 text-justify md:w-1/2">
         <h1 class="text-xl font-bold uppercase indent-4">julieta mercerat</h1>
         <div class="mt-10 space-y-4">
-          <p class="text-base indent-4">
+          <p class="text-sm indent-4">
             To introduce myself in a few words, I am Julieta, a passionate Trend
             Forecaster &amp; Denim designer. I lived in Buenos Aires where I
             graduated as a fashion and textile designer and spent 4 years
@@ -15,7 +15,7 @@
             for denim &amp; twill fabrics. I also participated in several
             fashion events as a speaker and trend consultant.
           </p>
-          <p class="text-base indent-4">
+          <p class="text-sm indent-4">
             Currently based in Paris, I work as a consultant for companies
             looking to discover and showcase the latest innovations in the world
             of denim. I collaborate with WeAr Global Magazine as Denim Editor,
@@ -23,7 +23,7 @@
             Advisor, and with the consulting firm Be Disobedient as a trend
             forecaster.
           </p>
-          <p class="text-base indent-4">
+          <p class="text-sm indent-4">
             As a professional, I am always looking towards environmental
             responsibility. I am convinced that design has a direct
             responsibility for the environmental impact of the product.
@@ -31,7 +31,7 @@
         </div>
 
         <div class="mt-4 space-y-2">
-          <p class="text-base indent-4">
+          <p class="text-sm indent-4">
             <span class="font-semibold"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@
                 /></svg></span
             >Speaker at industry events, and denim training at universities
           </p>
-          <p class="text-base indent-4">
+          <p class="text-sm indent-4">
             <span class="font-semibold"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@
                 /></svg></span
             >Cool Hunter, trend reporting and content creation
           </p>
-          <p class="text-base indent-4">
+          <p class="text-sm indent-4">
             <span class="font-semibold"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@
             >Consultant and freelance denim designer for brands that want to
             improve their collections
           </p>
-          <p class="text-base indent-4">
+          <p class="text-sm indent-4">
             <span class="font-semibold"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"

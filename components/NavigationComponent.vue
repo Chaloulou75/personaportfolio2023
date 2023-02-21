@@ -62,13 +62,13 @@ function toggle() {
       <nav>
         <NuxtLink
           to="/works"
-          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-200 hover:bg-blue-700 hover:text-white focus:outline-none"
+          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-500 ease-in-out transform hover:translate-x-2 focus:outline-none"
         >
           Portfolio
         </NuxtLink>
         <NuxtLink
           to="/about"
-          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-200 hover:bg-blue-700 hover:text-white focus:outline-none"
+          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-500 ease-in-out transform hover:translate-x-2 focus:outline-none"
         >
           About
         </NuxtLink>

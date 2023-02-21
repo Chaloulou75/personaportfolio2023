@@ -68,17 +68,17 @@ const filterWorksByCategory = computed(() => {
           class="absolute inset-0 bg-opacity-25"
           :class="work.background2"
         ></div>
-        <div class="relative flex flex-col items-start h-full">
+        <div class="relative flex flex-col items-start h-36">
           <h2
             class="px-4 py-4 text-lg font-semibold leading-normal tracking-wider text-white"
           >
             <span class="text-lg">{{ work.name }}</span>
           </h2>
-          <p
+          <!-- <p
             class="px-4 py-1 text-lg leading-normal tracking-wider text-white lg:py-0"
           >
             {{ work.year }}
-          </p>
+          </p> -->
         </div>
       </NuxtLink>
     </div>

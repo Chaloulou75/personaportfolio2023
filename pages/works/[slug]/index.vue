@@ -22,7 +22,7 @@ const showWork = computed(() => {
     </div>
     <div class="w-full px-4 mb-6 md:px-0">
       <h1 class="my-4 font-semibold">{{ showWork.name }}</h1>
-      <p class="mb-4">
+      <p class="mb-6 text-sm md:mb-10">
         {{ showWork.description }}
       </p>
       <div
@@ -35,7 +35,7 @@ const showWork = computed(() => {
             <li
               v-for="(program, index) in showWork.programs"
               :key="index"
-              class="font-normal"
+              class="text-sm font-normal"
             >
               {{ program }}
             </li>
@@ -48,7 +48,7 @@ const showWork = computed(() => {
             <li
               v-for="(tookpart, index) in showWork.tookPartIn"
               :key="index"
-              class="font-normal"
+              class="text-sm font-normal"
             >
               {{ tookpart }}
             </li>
@@ -61,7 +61,7 @@ const showWork = computed(() => {
             <li
               v-for="(category, index) in showWork.categories"
               :key="index"
-              class="font-normal"
+              class="text-sm font-normal"
             >
               {{ category }}
             </li>
