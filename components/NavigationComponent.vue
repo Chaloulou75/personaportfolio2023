@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import { onClickOutside } from "@vueuse/core";
+import { categories } from "@/stores/WorkStore.js";
 
 const isOpen = ref(false);
 const target = ref(null);
@@ -76,12 +77,17 @@ function toggle() {
 
       <div class="pt-16">
         <h3 class="px-4 my-3 font-semibold">Categories</h3>
-        <ul class="space-y-1 px-4 py-2.5">
-          <li value="#Denim">#Denim</li>
-          <li value="#Media & Journalism">#Media &amp; Journalism</li>
-          <li value="#Sustainability">#Sustainability</li>
-          <li value="#Talks & Conferences">#Talks &amp; Conferences</li>
-          <li value="#Trend Reports">#Trend Reports</li>
+        <ul class="space-y-1 px-4 py-2.5 text-sm">
+          <li
+            v-for="category in categories"
+            :key="category.id"
+            :value="category.name"
+            class="transition duration-500 ease-in-out transform hover:translate-x-2"
+          >
+            <NuxtLink class="focus:outline-none cursor-mano" to="/works">
+              {{ category.name }}
+            </NuxtLink>
+          </li>
         </ul>
       </div>
       <div class="px-4 pt-10">

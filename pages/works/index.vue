@@ -1,30 +1,6 @@
 <script setup>
 import { ref, computed } from "vue";
-import { works } from "@/stores/WorkStore.js";
-
-const category = ref("");
-const categories = ref([
-  {
-    id: 1,
-    name: "#Denim",
-  },
-  {
-    id: 2,
-    name: "#Media & Journalism",
-  },
-  {
-    id: 3,
-    name: "#Sustainability",
-  },
-  {
-    id: 4,
-    name: "#Talks & Conferences",
-  },
-  {
-    id: 5,
-    name: "#Trend Reports",
-  },
-]);
+import { category, categories, works } from "@/stores/WorkStore.js";
 
 const filterWorksByCategory = computed(() => {
   if (category.value == "") {
@@ -40,7 +16,7 @@ const filterWorksByCategory = computed(() => {
     <div class="px-10 mx-auto">
       <h3 class="px-4 my-3 font-semibold">Categories</h3>
       <select
-        class="space-y-1 px-4 py-2.5 focus:outline-none"
+        class="space-y-1 px-4 py-2.5 focus:outline-none cursor-mano"
         v-model="category"
       >
         <option value="" class="focus:outline-none" selected>#All</option>

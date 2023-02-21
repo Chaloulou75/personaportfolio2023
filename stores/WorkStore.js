@@ -1,4 +1,29 @@
-import { reactive } from "vue";
+import { ref, reactive } from "vue";
+
+export let category = ref("");
+
+export let categories = ref([
+  {
+    id: 1,
+    name: "#Denim",
+  },
+  {
+    id: 2,
+    name: "#Media & Journalism",
+  },
+  {
+    id: 3,
+    name: "#Sustainability",
+  },
+  {
+    id: 4,
+    name: "#Talks & Conferences",
+  },
+  {
+    id: 5,
+    name: "#Trend Reports",
+  },
+]);
 
 export let works = reactive([
   {

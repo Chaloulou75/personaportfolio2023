@@ -69,7 +69,7 @@ const colorTheme = computed(() => {
     </div>
 
     <div
-      class="relative flex w-full h-screen font-bold text-black text-8xl md:text-9xl md:h-1/2"
+      class="relative flex w-full h-screen font-bold text-black text-8xl md:text-9xl md:h-1/3"
     >
       <div
         class="absolute origin-center top-[10%] left-[45%] md:top-[-22%] md:left-[45%] hover:animate-pause"
