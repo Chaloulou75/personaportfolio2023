@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import { onClickOutside } from "@vueuse/core";
-import { categories } from "@/stores/WorkStore.js";
+import { category, categories } from "@/stores/WorkStore.js";
 
 const isOpen = ref(false);
 const target = ref(null);

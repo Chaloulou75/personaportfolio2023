@@ -30,7 +30,6 @@ export default defineNuxtConfig({
           sizes: "16x16",
           href: "/favicon-16x16.png",
         },
-        { rel: "manifest", href: "/site.webmanifest" },
       ],
     },
     pageTransition: { name: "page", mode: "out-in" },
@@ -50,5 +49,43 @@ export default defineNuxtConfig({
       Montserrat: true,
     },
     display: "swap",
+  },
+  pwa: {
+    manifest: {
+      name: "Persona Portfolio - Julieta Mercerat",
+      short_name: "Persona - Julieta Mercerat",
+      description:
+        "Diseñadora de moda y textil, Julieta Mercerat, Persona Portfolio",
+      theme_color: "#FFDF00",
+      icons: [
+        {
+          src: 'icon.png',
+          sizes: '512x512',
+          type: 'image/png',
+        },
+        {
+          sizes: '180x180',
+          src: 'apple-touch-icon.png',
+          type: 'image/png',
+        },
+        {
+          type: 'image/png',
+          sizes: '32x32',
+          src: 'favicon-32x32.png',
+        },
+        {
+          type: 'image/png',
+          sizes: '16x16',
+          src: 'favicon-16x16.png',
+        },
+      ],
+    },
+    workbox: {
+      navigateFallback: "/",
+    },
+    devOptions: {
+      enabled: true,
+      type: "module",
+    },
   },
 });
