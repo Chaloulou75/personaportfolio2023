@@ -53,7 +53,7 @@ export default defineNuxtConfig({
   pwa: {
     manifest: {
       name: "Persona Portfolio - Julieta Mercerat",
-      short_name: "Persona - Julieta Mercerat",
+      short_name: "Persona",
       description:
         "Diseñadora de moda y textil, Julieta Mercerat, Persona Portfolio",
       theme_color: "#FFDF00",
