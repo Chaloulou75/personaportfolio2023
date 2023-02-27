@@ -1,9 +1,9 @@
 <template>
+  <VitePwaManifest />
   <div
     class="relative flex flex-col justify-between min-h-screen bg-white font-montserrat cursor-flecha"
   >
     <div class="h-auto md:flex">
-      <VitePwaManifest />
       <NavigationComponent />
       <NuxtPage />
     </div>
