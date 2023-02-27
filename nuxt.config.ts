@@ -51,6 +51,7 @@ export default defineNuxtConfig({
     display: "swap",
   },
   pwa: {
+    registerType: "autoUpdate",
     manifest: {
       name: "Persona Portfolio - Julieta Mercerat",
       short_name: "Persona",
@@ -87,6 +88,7 @@ export default defineNuxtConfig({
     },
     workbox: {
       navigateFallback: "/",
+      globPatterns: ["**/*.{js,css,html,png,svg,ico}"],
     },
     devOptions: {
       enabled: true,
