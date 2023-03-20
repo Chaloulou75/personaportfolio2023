@@ -63,26 +63,26 @@ function toggle() {
       <nav>
         <NuxtLink
           to="/works"
-          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-500 ease-in-out transform hover:translate-x-2 focus:outline-none"
+          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-200 ease-in-out transform hover:translate-x-2 focus:outline-none"
         >
           Portfolio
         </NuxtLink>
         <NuxtLink
           to="/about"
-          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-500 ease-in-out transform hover:translate-x-2 focus:outline-none"
+          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-200 ease-in-out transform hover:translate-x-2 focus:outline-none"
         >
           About
         </NuxtLink>
       </nav>
 
       <div class="pt-16">
-        <h3 class="px-4 my-3 font-semibold">Categories</h3>
+        <!-- <h3 class="px-4 my-3 font-semibold">Categories</h3> -->
         <ul class="space-y-1 px-4 py-2.5 text-sm">
           <li
             v-for="category in categories"
             :key="category.id"
             :value="category.name"
-            class="transition duration-500 ease-in-out transform hover:translate-x-2"
+            class="transition duration-200 ease-in-out transform hover:translate-x-2"
           >
             <NuxtLink class="focus:outline-none cursor-mano" to="/works">
               {{ category.name }}

@@ -18,12 +18,13 @@ module.exports = {
         "11xl": "11rem",
       },
       backgroundImage: {
-        "dia-1": "url('/img/proyectos/dias/dia1.jpg')",
-        "dia-2": "url('/img/proyectos/dias/dia2.jpg')",
-        "dia-3": "url('/img/proyectos/dias/dia3.jpg')",
-        "dia-4": "url('/img/proyectos/dias/dia4.jpg')",
-        "dia-5": "url('/img/proyectos/dias/dia5.jpg')",
-        "dia-6": "url('/img/proyectos/dias/dia6.jpg')",
+        "denim-bluecode": "url('/img/denim/bluecode/1.jpg')",
+        "denim-central_denim": "url('/img/denim/central_denim/1.jpg')",
+        "denim-premiere_vision":
+          "url('/img/denim/denim_premiere_vision/1.jpg')",
+        "denim-here": "url('/img/denim/here/1.jpg')",
+        "denim-impar": "url('/img/denim/impar/1.jpg')",
+        "denim-indigo_fest": "url('/img/denim/indigo_fest/1.jpg')",
       },
       colors: {
         gold: "#FFDF00",
