@@ -17,7 +17,7 @@ const showWork = computed(() => {
       <img
         :src="showWork.images[0].href"
         loading="lazy"
-        class="object-none w-full h-full mx-auto shadow-lg shadow-sky-800/60"
+        class="object-cover w-full h-full mx-auto shadow-lg shadow-sky-800/60"
       />
     </div>
     <div class="w-full px-4 mb-6 md:px-0">
