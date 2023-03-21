@@ -445,7 +445,7 @@ export let works = reactive([
     background: "bg-dia-2 from-red-600 to-redjuli",
     background2: "bg-gray-900",
     description:
-      "I experimented with mycelial materials, as part of the biofabrication workshop &quot;chromatic expressions. During the meetings I grew different bio-agglomerated materials, for each of them we used mycelium from different fungi, which resulted in pieces with different colourations. The course was dictated in the framework of the University of Buenos Aires, and the picture is the result of the collective work.",
+      "I experimented with mycelial materials, as part of the biofabrication workshop & chromatic expressions. During the meetings I grew different bio-agglomerated materials, for each of them we used mycelium from different fungi, which resulted in pieces with different colourations. The course was dictated in the framework of the University of Buenos Aires, and the picture is the result of the collective work.",
     images: [
       {
         id: 1,
