@@ -25,6 +25,20 @@ module.exports = {
         "denim-here": "url('/img/denim/here/1.jpg')",
         "denim-impar": "url('/img/denim/impar/1.jpg')",
         "denim-indigo_fest": "url('/img/denim/indigo_fest/1.jpg')",
+        "sustainability-sistemas_materiales":
+          "url('/img/sustainability/sistemas_materiales/1.jpg')",
+        "sustainability-duo": "url('/img/sustainability/duo/1.jpg')",
+        "sustainability-premiere_vision_eco_responsible_forum":
+          "url('/img/sustainability/premiere_vision_eco_responsible_forum/1.jpg')",
+        "sustainability-fibra": "url('/img/sustainability/fibra/1.jpg')",
+        "sustainability-natural_pigments":
+          "url('/img/sustainability/natural_pigments/1.jpg')",
+        "sustainability-a.w.a.k.e":
+          "url('/img/sustainability/a.w.a.k.e/1.jpg')",
+        "mediajournalism-wear_global_magazine":
+          "url('/img/mediajournalism/wear_global_magazine/1.jpg')",
+        "mediajournalism-weardenim_n03":
+          "url('/img/mediajournalism/weardenim_n03/1.jpg')",
       },
       colors: {
         gold: "#FFDF00",

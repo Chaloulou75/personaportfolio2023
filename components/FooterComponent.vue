@@ -29,7 +29,7 @@
               </svg>
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a
               href="https://www.behance.net/personaportfolio"
               target="_blank"
@@ -69,7 +69,7 @@
                 />
               </svg>
             </a>
-          </li>
+          </li> -->
           <li>
             <a
               href="https://www.linkedin.com/in/julieta-mercerat/"
@@ -90,7 +90,7 @@
               </svg>
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a
               href="https://issuu.com/personadisenio/docs/entrega_completa_comprimido-comprimido"
               target="_blank"
@@ -109,7 +109,7 @@
                 />
               </svg>
             </a>
-          </li>
+          </li> -->
           <li>
             <a
               href="julietamercerat@gmail.com"
