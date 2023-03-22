@@ -3,7 +3,7 @@ import { ref, computed } from "vue";
 import { selectedCategory, categories, works } from "@/stores/WorkStore.js";
 
 const filterWorksByCategory = computed(() => {
-  if (selectedCategory.value == "") {
+  if (selectedCategory.value == "#All") {
     return works;
   } else {
     return works.filter((work) =>

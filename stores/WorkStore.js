@@ -1,26 +1,30 @@
 import { ref, reactive } from "vue";
 
-export let selectedCategory = ref("");
+export let selectedCategory = ref("#All");
 
 export let categories = ref([
   {
     id: 1,
-    name: "#Denim",
+    name: "#All",
   },
   {
     id: 2,
-    name: "#Media & Journalism",
+    name: "#Denim",
   },
   {
     id: 3,
-    name: "#Sustainability",
+    name: "#Media & Journalism",
   },
   {
     id: 4,
-    name: "#Talks & Conferences",
+    name: "#Sustainability",
   },
   {
     id: 5,
+    name: "#Talks & Conferences",
+  },
+  {
+    id: 6,
     name: "#Trend Reports",
   },
 ]);
