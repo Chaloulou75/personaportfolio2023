@@ -84,7 +84,11 @@ function toggle() {
             :value="category.name"
             class="transition duration-200 ease-in-out transform hover:translate-x-2"
           >
-            <NuxtLink class="focus:outline-none cursor-mano" to="/works">
+            <NuxtLink
+              v-if="category.name !== '#All'"
+              class="focus:outline-none cursor-mano"
+              to="/works"
+            >
               {{ category.name }}
             </NuxtLink>
           </li>
