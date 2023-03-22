@@ -537,6 +537,45 @@ export let works = reactive([
     programs: [],
   },
   {
+    name: "Première Vision Eco-responsible forum",
+    slug: "premiere-vision-eco-responsible-forum",
+    year: "2023",
+    categories: ["#Sustainability"],
+    background:
+      "bg-sustainability-premiere_vision_eco_responsible_forum from-yellow-500 to-yellowjuli",
+    background2: "bg-yellowjuli",
+    description:
+      "I collaborated with the Première Vision’s fashion team as Denim expert, for the setting up of the trend forum areas at the salon Première Vision Paris July 2022 and January 2023. Taking part in the selection of fabrics of the exhibiting companies' collections, as well as the compilation and placement of fabrics in the Casual, Denim and Eco-responsible forums.",
+    images: [
+      {
+        id: 1,
+        name: "uno",
+        href: "/img/sustainability/premiere_vision_eco_responsible_forum/1.jpg",
+      },
+      {
+        id: 2,
+        name: "dos",
+        href: "/img/sustainability/premiere_vision_eco_responsible_forum/2.jpg",
+      },
+      {
+        id: 3,
+        name: "tres",
+        href: "/img/sustainability/premiere_vision_eco_responsible_forum/3.jpg",
+      },
+      {
+        id: 4,
+        name: "cuatro",
+        href: "/img/sustainability/premiere_vision_eco_responsible_forum/4.jpg",
+      },
+    ],
+    tookPartIn: [
+      "Fabric selection",
+      "Creating product families",
+      "Trend Briefing",
+    ],
+    programs: ["Word", "Excel"],
+  },
+  {
     name: "Denimcracia",
     slug: "denimcracia",
     year: "2021",

@@ -76,7 +76,7 @@ function toggle() {
         </NuxtLink>
       </nav>
 
-      <div class="pt-16" v-if="route.path === '/works'">
+      <div class="hidden pt-16 md:block" v-if="route.path === '/works'">
         <h3 class="px-4 my-3 font-semibold">Categories</h3>
         <!-- <ul class="space-y-1 px-4 py-2.5 text-sm">
           <li
