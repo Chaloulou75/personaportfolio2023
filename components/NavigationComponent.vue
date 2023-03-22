@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import { onClickOutside } from "@vueuse/core";
-import { category, categories } from "@/stores/WorkStore.js";
+import { selectedCategory, categories } from "@/stores/WorkStore.js";
 
 const isOpen = ref(false);
 const target = ref(null);
@@ -89,7 +89,9 @@ function toggle() {
             </NuxtLink>
           </li>
         </ul>
+        <SelectCategoryComponent />
       </div>
+
       <div class="px-4 pt-10">
         <a
           href="mailto:julietamercerat@gmail.com"

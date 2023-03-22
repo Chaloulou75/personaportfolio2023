@@ -1,6 +1,6 @@
 import { ref, reactive } from "vue";
 
-export let category = ref("");
+export let selectedCategory = ref("");
 
 export let categories = ref([
   {
