@@ -2,6 +2,7 @@
 import { ref } from "vue";
 import { onClickOutside } from "@vueuse/core";
 import { selectedCategory, categories } from "@/stores/WorkStore.js";
+const route = useRoute();
 
 const isOpen = ref(false);
 const target = ref(null);
@@ -75,9 +76,9 @@ function toggle() {
         </NuxtLink>
       </nav>
 
-      <div class="pt-16">
-        <!-- <h3 class="px-4 my-3 font-semibold">Categories</h3> -->
-        <ul class="space-y-1 px-4 py-2.5 text-sm">
+      <div class="pt-16" v-if="route.path === '/works'">
+        <h3 class="px-4 my-3 font-semibold">Categories</h3>
+        <!-- <ul class="space-y-1 px-4 py-2.5 text-sm">
           <li
             v-for="category in categories"
             :key="category.id"
@@ -92,11 +93,11 @@ function toggle() {
               {{ category.name }}
             </NuxtLink>
           </li>
-        </ul>
+        </ul> -->
         <SelectCategoryComponent />
       </div>
 
-      <div class="px-4 pt-10">
+      <div class="px-4 pt-10 mt-auto">
         <a
           href="mailto:julietamercerat@gmail.com"
           target="_blank"

@@ -15,9 +15,9 @@ const filterWorksByCategory = computed(() => {
 
 <template>
   <div class="flex flex-col flex-1 my-4">
-    <div class="px-10 mx-auto">
+    <!-- <div class="px-10 mx-auto">
       <h3 class="px-4 my-3 font-semibold">Categories</h3>
-      <!-- <select
+       <select
         class="space-y-1 px-4 py-2.5 focus:outline-none cursor-mano"
         v-model="selectedCategory"
       >
@@ -31,8 +31,8 @@ const filterWorksByCategory = computed(() => {
           {{ category.name }}
         </option>
       </select> -->
-      <SelectCategoryComponent />
-    </div>
+    <!-- <SelectCategoryComponent />
+    </div> -->
     <div
       class="container relative grid w-full grid-cols-1 gap-2 mx-auto my-8 text-white auto-cols-auto md:grid-cols-2 lg:grid-cols-3 lg:gap-4"
     >

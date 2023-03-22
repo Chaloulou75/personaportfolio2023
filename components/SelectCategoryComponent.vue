@@ -11,7 +11,7 @@ import {
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/vue/20/solid";
 </script>
 <template>
-  <div class="w-72">
+  <div class="w-full">
     <Listbox v-model="selectedCategory">
       <div class="relative mt-1">
         <ListboxButton
@@ -45,7 +45,7 @@ import { CheckIcon, ChevronUpDownIcon } from "@heroicons/vue/20/solid";
             >
               <li
                 :class="[
-                  active ? 'bg-amber-100 text-amber-900' : 'text-gray-900',
+                  active ? 'bg-yellow-100 text-blue-800' : 'text-gray-900',
                   'relative cursor-mano select-none py-2 pl-10 pr-4',
                 ]"
               >
@@ -58,7 +58,7 @@ import { CheckIcon, ChevronUpDownIcon } from "@heroicons/vue/20/solid";
                 >
                 <span
                   v-if="selected"
-                  class="absolute inset-y-0 left-0 flex items-center pl-3 text-amber-600"
+                  class="absolute inset-y-0 left-0 flex items-center pl-3 text-bluejuli"
                 >
                   <CheckIcon class="w-5 h-5" aria-hidden="true" />
                 </span>
