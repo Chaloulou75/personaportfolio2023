@@ -15,22 +15,8 @@ const filterWorksByCategory = computed(() => {
 
 <template>
   <div class="flex flex-col flex-1 px-2 my-4">
-    <div class="px-10 mx-auto md:hidden">
-      <h3 class="px-4 my-3 font-semibold">Categories</h3>
-      <!-- <select
-        class="space-y-1 px-4 py-2.5 focus:outline-none cursor-mano"
-        v-model="selectedCategory"
-      >
-        <option value="" class="focus:outline-none" selected>#All</option>
-        <option
-          v-for="category in categories"
-          :key="category.id"
-          :value="category.name"
-          class="focus:outline-none"
-        >
-          {{ category.name }}
-        </option>
-      </select> -->
+    <div class="w-full px-2 mx-auto md:hidden">
+      <h3 class="px-4 my-3 font-semibold text-center">Categories</h3>
       <SelectCategoryComponent />
     </div>
     <div
