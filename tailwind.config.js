@@ -39,6 +39,16 @@ module.exports = {
           "url('/img/mediajournalism/wear_global_magazine/1.jpg')",
         "mediajournalism-weardenim_n03":
           "url('/img/mediajournalism/weardenim_n03/1.jpg')",
+        "talksconferences-denimcracia":
+          "url('/img/talksconferences/denimcracia/1.jpg')",
+        "talksconferences-virtualtalks":
+          "url('/img/talksconferences/virtual_talks/1.png')",
+        "trendreports-bluekey": "url('/img/trendreports/bluekey/1.jpg')",
+        "trendreports-bluekey2": "url('/img/trendreports/bluekey2/1.jpg')",
+        "trendreports-bluekey3": "url('/img/trendreports/bluekey3/1.jpg')",
+        "trendreports-bluekey4": "url('/img/trendreports/bluekey4/1.jpg')",
+        "trendreports-trendreview":
+          "url('/img/trendreports/trendreview/1.jpg')",
       },
       colors: {
         gold: "#FFDF00",

@@ -580,7 +580,7 @@ export let works = reactive([
     slug: "denimcracia",
     year: "2021",
     categories: ["#Talks & Conferences"],
-    background: "bg-dia-1 from-black to-gray-800",
+    background: "bg-talksconferences-denimcracia from-black to-gray-800",
     background2: "bg-gray-900",
     description:
       "In the context of Buenos Aires Fashion Week, I won a space as a speaker for the introduction programme. With Ana Paula Alves, we developed a special presentation to talk about the history of the Denim Industry and some important facts to know about this amazing product that we both love. The name of the talk refers to the DEMOCRATIC aspect of this product, and how jeans are an essential part of every wardrobe. It also mentions the fact that jeans had a place in many historical moments and revolutions, for example when it became the hero material in rock band attire all over the world, when people searched for peace at Woodstock, and when it walked towards equality with the English feminist.",
@@ -588,17 +588,7 @@ export let works = reactive([
       {
         id: 1,
         name: "uno",
-        href: "/img/denim/bluecode/1.jpg",
-      },
-      {
-        id: 2,
-        name: "dos",
-        href: "/img/denim/bluecode/2.jpg",
-      },
-      {
-        id: 3,
-        name: "tres",
-        href: "/img/denim/bluecode/3.jpg",
+        href: "/img/talksconferences/denimcracia/1.jpg",
       },
     ],
     tookPartIn: [
@@ -613,7 +603,7 @@ export let works = reactive([
     slug: "virtual-talks",
     year: "2021",
     categories: ["#Talks & Conferences"],
-    background: "bg-dia-3 from-blue-500 to-bluejuli",
+    background: "bg-talksconferences-virtualtalks from-blue-500 to-bluejuli",
     background2: "bg-blue-900",
     description:
       "This is a virtual conference programme dedicated to the denim industry. I developed this program with the marketing team during my time spent as a Jeanswear Product Manager in Santista/Tavex. Throughout these talks we exchanged knowledge with industry experts inside and outside Santista to learn more about different subjects such as trends, technology, innovation and sustainability. International guest companies performed during the program, as LECTRA, TRIBUTO LAB, and B CERTIFICATION.",
@@ -621,17 +611,27 @@ export let works = reactive([
       {
         id: 1,
         name: "uno",
-        href: "/img/denim/bluecode/1.jpg",
+        href: "/img/talksconferences/virtual_talks/1.png",
       },
       {
         id: 2,
         name: "dos",
-        href: "/img/denim/bluecode/2.jpg",
+        href: "/img/talksconferences/virtual_talks/2.jpg",
       },
       {
         id: 3,
         name: "tres",
-        href: "/img/denim/bluecode/3.jpg",
+        href: "/img/talksconferences/virtual_talks/3.jpg",
+      },
+      {
+        id: 4,
+        name: "cuatro",
+        href: "/img/talksconferences/virtual_talks/4.jpg",
+      },
+      {
+        id: 5,
+        name: "cinco",
+        href: "/img/talksconferences/virtual_talks/5.jpg",
       },
     ],
     tookPartIn: ["Founder", "Creative Director", "Planning coordination"],
@@ -639,10 +639,10 @@ export let works = reactive([
   },
   {
     name: "Blue key",
-    slug: "blue-key",
+    slug: "bluekey",
     year: "2019",
     categories: ["#Trend Reports"],
-    background: "bg-dia-4 from-yellow-500 to-yellowjuli",
+    background: "bg-trendreports-bluekey from-yellow-500 to-yellowjuli",
     background2: "bg-yellowjuli",
     description:
       "BLUEKEY is a semestral Trend Report with more than 150 pages made for the virtual event TRIPPIN’ BLUE. This event is focused on Denim business in the LATAM region, with presentations from professionals and companies all around the world. In this report we analyse macrotrends and microtrends, covering the most relevant fashion runways, emerging designers and denim events. I specialised in denim trend forecasting and participated as a speaker in the trend video conference, hosting up to 200 participants. I also designed a magazine for the event which was printed to send to the most important clients, and sent in digital format to all participants (+1.100 participants).",
@@ -650,17 +650,226 @@ export let works = reactive([
       {
         id: 1,
         name: "uno",
-        href: "/img/denim/bluecode/1.jpg",
+        href: "/img/trendreports/bluekey/1.jpg",
       },
       {
         id: 2,
         name: "dos",
-        href: "/img/denim/bluecode/2.jpg",
+        href: "/img/trendreports/bluekey/2.jpg",
       },
       {
         id: 3,
         name: "tres",
-        href: "/img/denim/bluecode/3.jpg",
+        href: "/img/trendreports/bluekey/3.jpg",
+      },
+      {
+        id: 4,
+        name: "cuatro",
+        href: "/img/trendreports/bluekey/4.jpg",
+      },
+      {
+        id: 5,
+        name: "cinco",
+        href: "/img/trendreports/bluekey/5.jpg",
+      },
+    ],
+    tookPartIn: [
+      "Editorial design",
+      "Trend forecasting",
+      "Video Conference presentation",
+    ],
+    programs: ["InDesign", "Keynote", "Photoshop", "Illustrator"],
+  },
+  {
+    name: "Blue key #2",
+    slug: "bluekey2",
+    year: "2019",
+    categories: ["#Trend Reports"],
+    background: "bg-trendreports-bluekey2 from-blue-500 to-bluejuli",
+    background2: "bg-bluejuli",
+    description:
+      "BLUEKEY is a semestral Trend Report with more than 150 pages made for the virtual event TRIPPIN’ BLUE. This event is focused on Denim business in the LATAM region, with presentations from professionals and companies all around the world. In this report we analyse macrotrends and microtrends, covering the most relevant fashion runways, emerging designers and denim events. I specialised in denim trend forecasting and participated as a speaker in the trend video conference, hosting up to 200 participants. I also designed a magazine for the event which was printed to send to the most important clients, and sent in digital format to all participants (+1.100 participants).",
+    images: [
+      {
+        id: 1,
+        name: "uno",
+        href: "/img/trendreports/bluekey2/1.jpg",
+      },
+      {
+        id: 2,
+        name: "dos",
+        href: "/img/trendreports/bluekey2/2.jpg",
+      },
+      {
+        id: 3,
+        name: "tres",
+        href: "/img/trendreports/bluekey2/3.jpg",
+      },
+      {
+        id: 4,
+        name: "cuatro",
+        href: "/img/trendreports/bluekey2/4.jpg",
+      },
+      {
+        id: 5,
+        name: "cinco",
+        href: "/img/trendreports/bluekey2/5.jpg",
+      },
+      {
+        id: 6,
+        name: "seis",
+        href: "/img/trendreports/bluekey2/6.jpg",
+      },
+      {
+        id: 7,
+        name: "siete",
+        href: "/img/trendreports/bluekey2/7.jpg",
+      },
+      {
+        id: 8,
+        name: "ocho",
+        href: "/img/trendreports/bluekey2/8.jpg",
+      },
+      {
+        id: 9,
+        name: "nueve",
+        href: "/img/trendreports/bluekey2/9.jpg",
+      },
+    ],
+    tookPartIn: [
+      "Editorial design",
+      "Trend forecasting",
+      "Video Conference presentation",
+    ],
+    programs: ["InDesign", "Keynote", "Photoshop", "Illustrator"],
+  },
+  {
+    name: "Blue key #3",
+    slug: "bluekey3",
+    year: "2019",
+    categories: ["#Trend Reports"],
+    background: "bg-trendreports-bluekey3 from-blue-500 to-bluejuli",
+    background2: "bg-bluejuli",
+    description:
+      "BLUEKEY is a semestral Trend Report with more than 150 pages made for the virtual event TRIPPIN’ BLUE. This event is focused on Denim business in the LATAM region, with presentations from professionals and companies all around the world. In this report we analyse macrotrends and microtrends, covering the most relevant fashion runways, emerging designers and denim events. I specialised in denim trend forecasting and participated as a speaker in the trend video conference, hosting up to 200 participants. I also designed a magazine for the event which was printed to send to the most important clients, and sent in digital format to all participants (+1.100 participants).",
+    images: [
+      {
+        id: 1,
+        name: "uno",
+        href: "/img/trendreports/bluekey3/1.jpg",
+      },
+      {
+        id: 2,
+        name: "dos",
+        href: "/img/trendreports/bluekey3/2.jpg",
+      },
+      {
+        id: 3,
+        name: "tres",
+        href: "/img/trendreports/bluekey3/3.jpg",
+      },
+      {
+        id: 4,
+        name: "cuatro",
+        href: "/img/trendreports/bluekey3/4.jpg",
+      },
+      {
+        id: 5,
+        name: "cinco",
+        href: "/img/trendreports/bluekey3/5.jpg",
+      },
+      {
+        id: 6,
+        name: "seis",
+        href: "/img/trendreports/bluekey3/6.jpg",
+      },
+      {
+        id: 7,
+        name: "siete",
+        href: "/img/trendreports/bluekey3/7.jpg",
+      },
+      {
+        id: 8,
+        name: "ocho",
+        href: "/img/trendreports/bluekey3/8.jpg",
+      },
+      {
+        id: 9,
+        name: "nueve",
+        href: "/img/trendreports/bluekey3/9.jpg",
+      },
+    ],
+    tookPartIn: [
+      "Editorial design",
+      "Trend forecasting",
+      "Video Conference presentation",
+    ],
+    programs: ["InDesign", "Keynote", "Photoshop", "Illustrator"],
+  },
+  {
+    name: "Blue key #4",
+    slug: "bluekey4",
+    year: "2019",
+    categories: ["#Trend Reports"],
+    background: "bg-trendreports-bluekey4 from-blue-500 to-bluejuli",
+    background2: "bg-bluejuli",
+    description:
+      "BLUEKEY is a semestral Trend Report with more than 150 pages made for the virtual event TRIPPIN’ BLUE. This event is focused on Denim business in the LATAM region, with presentations from professionals and companies all around the world. In this report we analyse macrotrends and microtrends, covering the most relevant fashion runways, emerging designers and denim events. I specialised in denim trend forecasting and participated as a speaker in the trend video conference, hosting up to 200 participants. I also designed a magazine for the event which was printed to send to the most important clients, and sent in digital format to all participants (+1.100 participants).",
+    images: [
+      {
+        id: 1,
+        name: "uno",
+        href: "/img/trendreports/bluekey4/1.jpg",
+      },
+      {
+        id: 2,
+        name: "dos",
+        href: "/img/trendreports/bluekey4/2.jpg",
+      },
+      {
+        id: 3,
+        name: "tres",
+        href: "/img/trendreports/bluekey4/3.jpg",
+      },
+      {
+        id: 4,
+        name: "cuatro",
+        href: "/img/trendreports/bluekey4/4.jpg",
+      },
+      {
+        id: 5,
+        name: "cinco",
+        href: "/img/trendreports/bluekey4/5.jpg",
+      },
+      {
+        id: 6,
+        name: "seis",
+        href: "/img/trendreports/bluekey4/6.jpg",
+      },
+      {
+        id: 7,
+        name: "siete",
+        href: "/img/trendreports/bluekey4/7.jpg",
+      },
+      {
+        id: 8,
+        name: "ocho",
+        href: "/img/trendreports/bluekey4/8.jpg",
+      },
+      {
+        id: 9,
+        name: "nueve",
+        href: "/img/trendreports/bluekey4/9.jpg",
+      },
+      {
+        id: 10,
+        name: "dies",
+        href: "/img/trendreports/bluekey4/10.jpg",
+      },
+      {
+        id: 11,
+        name: "once",
+        href: "/img/trendreports/bluekey4/11.jpg",
       },
     ],
     tookPartIn: [
@@ -675,7 +884,7 @@ export let works = reactive([
     slug: "trend-review-tavex",
     year: "2020",
     categories: ["#Trend Reports"],
-    background: "bg-dia-5 from-gray-900 to-black",
+    background: "bg-trendreports-trendreview from-gray-900 to-black",
     background2: "bg-gray-800",
     description:
       "This is a trend magazine specialised in the denim industry made for Santista/Tavex. Santista is a Denim Mill that not only sells fabrics, they focus on supporting their clients, and provide different tools to improve their collections. This trend report has projections and a deep analysis from the local market and global consumers’ behaviours to understand the COVID crisis, and to have a better handling of the situation. This magazine was launched in the year 2020; the objective was to analyse the current year, focusing on 2021 and making projections for 2022. We tried to provide our clients with inspiration and confidence in such a difficult moment.",
@@ -683,17 +892,72 @@ export let works = reactive([
       {
         id: 1,
         name: "uno",
-        href: "/img/denim/bluecode/1.jpg",
+        href: "/img/trendreports/trendreview/1.jpg",
       },
       {
         id: 2,
         name: "dos",
-        href: "/img/denim/bluecode/2.jpg",
+        href: "/img/trendreports/trendreview/2.jpg",
       },
       {
         id: 3,
         name: "tres",
-        href: "/img/denim/bluecode/3.jpg",
+        href: "/img/trendreports/trendreview/3.jpg",
+      },
+      {
+        id: 4,
+        name: "cuatro",
+        href: "/img/trendreports/trendreview/4.jpg",
+      },
+      {
+        id: 5,
+        name: "cinco",
+        href: "/img/trendreports/trendreview/5.jpg",
+      },
+      {
+        id: 6,
+        name: "seis",
+        href: "/img/trendreports/trendreview/6.jpg",
+      },
+      {
+        id: 7,
+        name: "siete",
+        href: "/img/trendreports/trendreview/7.jpg",
+      },
+      {
+        id: 8,
+        name: "ocho",
+        href: "/img/trendreports/trendreview/8.jpg",
+      },
+      {
+        id: 9,
+        name: "nueve",
+        href: "/img/trendreports/trendreview/9.jpg",
+      },
+      {
+        id: 10,
+        name: "dies",
+        href: "/img/trendreports/trendreview/10.jpg",
+      },
+      {
+        id: 11,
+        name: "once",
+        href: "/img/trendreports/trendreview/11.jpg",
+      },
+      {
+        id: 12,
+        name: "doce",
+        href: "/img/trendreports/trendreview/12.jpg",
+      },
+      {
+        id: 13,
+        name: "trece",
+        href: "/img/trendreports/trendreview/13.jpg",
+      },
+      {
+        id: 14,
+        name: "quatorze",
+        href: "/img/trendreports/trendreview/14.jpg",
       },
     ],
     tookPartIn: [
