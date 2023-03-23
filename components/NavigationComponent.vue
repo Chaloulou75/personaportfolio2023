@@ -34,6 +34,7 @@ function toggle() {
         @click="toggle"
       >
         <svg
+          v-if="!isOpen"
           class="w-5 h-5"
           fill="none"
           viewBox="0 0 24 24"
@@ -46,12 +47,27 @@ function toggle() {
             d="M4 6h16M4 12h16M4 18h16"
           />
         </svg>
+        <svg
+          v-else
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-5 h-5"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
       </button>
     </div>
 
     <!-- sidebar -->
     <div
-      class="absolute inset-y-0 left-0 z-30 w-64 px-2 py-6 space-y-6 text-gray-700 transition duration-200 ease-in-out bg-white sidebar bg-opacity-90 md:relative md:translate-x-0"
+      class="absolute inset-y-0 left-0 z-30 px-2 py-6 space-y-6 text-gray-700 transition duration-200 ease-in-out bg-white w-44 sidebar bg-opacity-90 md:relative md:translate-x-0"
       :class="isOpen ? '' : '-translate-x-full'"
     >
       <!-- logo -->
@@ -78,22 +94,6 @@ function toggle() {
 
       <div class="hidden pt-16 md:block" v-if="route.path === '/works'">
         <h3 class="px-4 my-3 font-semibold">Categories</h3>
-        <!-- <ul class="space-y-1 px-4 py-2.5 text-sm">
-          <li
-            v-for="category in categories"
-            :key="category.id"
-            :value="category.name"
-            class="transition duration-200 ease-in-out transform hover:translate-x-2"
-          >
-            <NuxtLink
-              v-if="category.name !== '#All'"
-              class="focus:outline-none cursor-mano"
-              to="/works"
-            >
-              {{ category.name }}
-            </NuxtLink>
-          </li>
-        </ul> -->
         <SelectCategoryComponent />
       </div>
 
