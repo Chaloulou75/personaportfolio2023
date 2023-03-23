@@ -369,7 +369,7 @@ export let works = reactive([
       {
         id: 1,
         name: "uno",
-        href: "/img/sustainability/duo/1.jpg",
+        href: "/img/sustainability/duo/1-2.jpg",
       },
       {
         id: 2,
