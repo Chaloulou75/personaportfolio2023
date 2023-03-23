@@ -99,7 +99,7 @@ export let works = reactive([
     background: "bg-denim-premiere_vision from-blue-500 to-bluejuli",
     background2: "bg-blue-900",
     description:
-      "I collaborated with the Première Vision’s fashion team as Denim expert, for the setting up of the trend forum areas at the salon Denim Première Vision Berlin and Milan 2022, and Première Vision Paris July 2022 and January 2023. Taking part in the selection of fabrics of the exhibiting companies&#39; collections, as well as the compilation and placement of fabrics in the Casual, Denim and Eco-responsible forums.",
+      "I collaborated with the Première Vision’s fashion team as Denim expert, for the setting up of the trend forum areas at the salon Denim Première Vision Berlin and Milan 2022, and Première Vision Paris July 2022 and January 2023. Taking part in the selection of fabrics of the exhibiting companies & collections, as well as the compilation and placement of fabrics in the Casual, Denim and Eco-responsible forums.",
     images: [
       {
         id: 1,
