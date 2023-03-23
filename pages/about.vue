@@ -102,6 +102,7 @@
           allow="autoplay; fullscreen"
           allowfullscreen
           title="Julieta Mercerat, video CV"
+          description="Julieta Mercerat, video CV"
         ></iframe>
       </div>
     </div>

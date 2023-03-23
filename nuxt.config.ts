@@ -41,7 +41,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@vite-pwa/nuxt", "@nuxtjs/google-fonts", "@vueuse/nuxt"],
+  modules: [
+    "@vite-pwa/nuxt",
+    "@nuxtjs/google-fonts",
+    "@vueuse/nuxt",
+    "nuxt-gtag",
+  ],
   googleFonts: {
     download: true,
     preconnect: true,
@@ -49,6 +54,9 @@ export default defineNuxtConfig({
       Montserrat: true,
     },
     display: "swap",
+  },
+  gtag: {
+    id: "G-8KLCJX78WV",
   },
   pwa: {
     registerType: "autoUpdate",
