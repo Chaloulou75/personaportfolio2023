@@ -18,37 +18,32 @@ module.exports = {
         "11xl": "11rem",
       },
       backgroundImage: {
-        "denim-bluecode": "url('/img/denim/bluecode/1.jpg')",
-        "denim-central_denim": "url('/img/denim/central_denim/1.jpg')",
-        "denim-premiere_vision":
-          "url('/img/denim/denim_premiere_vision/1.jpg')",
-        "denim-here": "url('/img/denim/here/1.jpg')",
-        "denim-impar": "url('/img/denim/impar/1.jpg')",
-        "denim-indigo_fest": "url('/img/denim/indigo_fest/1.jpg')",
+        "denim-bluecode": "url('/img/portadas/bluecode.jpg')",
+        "denim-central_denim": "url('/img/portadas/centraldenim.jpg')",
+        "denim-premiere_vision": "url('/img/portadas/denimpremierevision.jpg')",
+        "denim-here": "url('/img/portadas/here.jpg')",
+        "denim-impar": "url('/img/portadas/impar.jpg')",
+        "denim-indigo_fest": "url('/img/portadas/indigofest.jpg')",
         "sustainability-sistemas_materiales":
-          "url('/img/sustainability/sistemas_materiales/1.jpg')",
-        "sustainability-duo": "url('/img/sustainability/duo/1.jpg')",
+          "url('/img/portadas/sistemasmateriales.jpg')",
+        "sustainability-duo": "url('/img/portadas/duo.jpg')",
         "sustainability-premiere_vision_eco_responsible_forum":
-          "url('/img/sustainability/premiere_vision_eco_responsible_forum/1.jpg')",
-        "sustainability-fibra": "url('/img/sustainability/fibra/1.jpg')",
+          "url('/img/portadas/premierevisionecoresponsibleforum.jpg')",
+        "sustainability-fibra": "url('/img/portadas/fibra.jpg')",
         "sustainability-natural_pigments":
-          "url('/img/sustainability/natural_pigments/1.jpg')",
-        "sustainability-a.w.a.k.e":
-          "url('/img/sustainability/a.w.a.k.e/1.jpg')",
+          "url('/img/portadas/naturalpigments.jpg')",
+        "sustainability-a.w.a.k.e": "url('/img/portadas/awake.jpg')",
         "mediajournalism-wear_global_magazine":
-          "url('/img/mediajournalism/wear_global_magazine/1.jpg')",
-        "mediajournalism-weardenim_n03":
-          "url('/img/mediajournalism/weardenim_n03/1.jpg')",
-        "talksconferences-denimcracia":
-          "url('/img/talksconferences/denimcracia/1.jpg')",
+          "url('/img/portadas/wearglobalmagazine.jpg')",
+        "mediajournalism-weardenim_n03": "url('/img/portadas/weardenim.jpg')",
+        "talksconferences-denimcracia": "url('/img/portadas/denimcracia.jpg')",
         "talksconferences-virtualtalks":
-          "url('/img/talksconferences/virtual_talks/1.png')",
-        "trendreports-bluekey": "url('/img/trendreports/bluekey/1.jpg')",
-        "trendreports-bluekey2": "url('/img/trendreports/bluekey2/1.jpg')",
-        "trendreports-bluekey3": "url('/img/trendreports/bluekey3/1.jpg')",
-        "trendreports-bluekey4": "url('/img/trendreports/bluekey4/1.jpg')",
-        "trendreports-trendreview":
-          "url('/img/trendreports/trendreview/1.jpg')",
+          "url('/img/portadas/virtualtalks.jpg')",
+        "trendreports-bluekey": "url('/img/portadas/bluekey.jpg')",
+        "trendreports-bluekey2": "url('/img/portadas/bluekey2.jpg')",
+        "trendreports-bluekey3": "url('/img/portadas/bluekey3.jpg')",
+        "trendreports-bluekey4": "url('/img/portadas/bluekey4.jpg')",
+        "trendreports-trendreview": "url('/img/portadas/trendreview.jpg')",
       },
       colors: {
         gold: "#FFDF00",
