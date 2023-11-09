@@ -4,7 +4,7 @@
       class="flex flex-col items-center justify-between w-full px-3 py-6 text-xs text-gray-200 md:flex-row lg:flex-row"
     >
       <div class="flex-1 order-2 py-4 lg:order-1">
-        &copy; <span class="text-gray-400"> Persona Portfolio</span>
+        &copy; <span class="text-gray-400"> Julieta Mercerat</span>
         {{ new Date().getFullYear() }}. all rights reserved.
       </div>
 
