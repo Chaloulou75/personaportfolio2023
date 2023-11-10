@@ -2,6 +2,8 @@
 import { ref } from "vue";
 import { onClickOutside } from "@vueuse/core";
 import { selectedCategory, categories } from "@/stores/WorkStore.js";
+
+const emit = defineEmits(["open-contact"]);
 const route = useRoute();
 
 const isOpen = ref(false);
@@ -14,6 +16,10 @@ onClickOutside(target, (event) => {
 function toggle() {
   isOpen.value = !isOpen.value;
 }
+
+const openContactMe = () => {
+  emit("open-contact");
+};
 </script>
 <template>
   <div ref="target">
@@ -98,9 +104,9 @@ function toggle() {
       </div>
 
       <div class="px-4 pt-10 mt-auto">
-        <a
-          href="mailto:julietamercerat@gmail.com"
-          target="_blank"
+        <button
+          type="button"
+          @click="openContactMe"
           class="hover:text-gray-600 cursor-mano"
         >
           <svg
@@ -116,7 +122,7 @@ function toggle() {
               d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
             />
           </svg>
-        </a>
+        </button>
       </div>
     </div>
   </div>

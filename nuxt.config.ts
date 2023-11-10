@@ -4,11 +4,11 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
-      title: "Persona Portfolio | Julieta Mercerat",
+      title: "Julieta Mercerat",
       meta: [
         {
           name: "description",
-          content: "Diseñadora de moda y textil",
+          content: "Diseñadora de moda y textil | Julieta Mercerat",
         },
       ],
       link: [
@@ -61,8 +61,8 @@ export default defineNuxtConfig({
   pwa: {
     registerType: "autoUpdate",
     manifest: {
-      name: "Persona Portfolio - Julieta Mercerat",
-      short_name: "Persona",
+      name: "Julieta Mercerat",
+      short_name: "Julieta Mercerat",
       description:
         "Diseñadora de moda y textil, Julieta Mercerat, Persona Portfolio",
       theme_color: "#FFDF00",
