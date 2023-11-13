@@ -112,7 +112,7 @@
           </li> -->
           <li>
             <a
-              href="julietamercerat@gmail.com"
+              href="hello@julietamercerat.com"
               target="_blank"
               class="hover:text-gray-500 cursor-mano"
             >

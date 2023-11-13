@@ -39,7 +39,7 @@ const openEmail = () => {
           >
             <XMarkIcon class="h-10 w-10 text-black" />
           </button>
-          <h2>julietamercerat@gmail.com</h2>
+          <h2>hello@julietamercerat.com</h2>
         </div>
       </div>
     </TransitionRoot>
