@@ -32,14 +32,14 @@ const openContactMe = () => {
           class="h-10 px-4 focus:outline-none cursor-mano"
           :class="isOpen ? 'hidden' : ''"
         /> -->
-        <!-- <LogoJm
-          class="h-10 px-4 focus:outline-none cursor-mano"
-          :class="isOpen ? 'hidden' : ''"
-        /> -->
-        <LogoJmLarge
+        <LogoJm
           class="h-10 px-4 focus:outline-none cursor-mano"
           :class="isOpen ? 'hidden' : ''"
         />
+        <!-- <LogoJmLarge
+          class="h-10 px-4 focus:outline-none cursor-mano"
+          :class="isOpen ? 'hidden' : ''"
+        /> -->
       </NuxtLink>
 
       <!-- mobile menu button -->
