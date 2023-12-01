@@ -497,45 +497,45 @@ export let works = reactive([
     ],
     programs: ["Google project", "Excel"],
   },
-  {
-    name: "Sistemas materiales",
-    slug: "sistemas-materiales",
-    year: "2021",
-    categories: ["#Sustainability"],
-    background: "bg-sustainability-sistemas_materiales from-red-600 to-redjuli",
-    background2: "bg-gray-900",
-    description:
-      "I experimented with mycelial materials, as part of the biofabrication workshop & chromatic expressions. During the meetings I grew different bio-agglomerated materials, for each of them we used mycelium from different fungi, which resulted in pieces with different colourations. The course was dictated in the framework of the University of Buenos Aires, and the picture is the result of the collective work.",
-    images: [
-      {
-        id: 1,
-        name: "uno",
-        href: "/img/sustainability/sistemas_materiales/1.jpg",
-      },
-      {
-        id: 2,
-        name: "dos",
-        href: "/img/sustainability/sistemas_materiales/2.jpg",
-      },
-      {
-        id: 3,
-        name: "tres",
-        href: "/img/sustainability/sistemas_materiales/1.jpg",
-      },
-      {
-        id: 4,
-        name: "cuatro",
-        href: "/img/sustainability/sistemas_materiales/4.jpg",
-      },
-      {
-        id: 5,
-        name: "cinco",
-        href: "/img/sustainability/sistemas_materiales/5.jpg",
-      },
-    ],
-    tookPartIn: ["Experimenting with mushrooms", "Growing materials"],
-    programs: [],
-  },
+  // {
+  //   name: "Sistemas materiales",
+  //   slug: "sistemas-materiales",
+  //   year: "2021",
+  //   categories: ["#Sustainability"],
+  //   background: "bg-sustainability-sistemas_materiales from-red-600 to-redjuli",
+  //   background2: "bg-gray-900",
+  //   description:
+  //     "I experimented with mycelial materials, as part of the biofabrication workshop & chromatic expressions. During the meetings I grew different bio-agglomerated materials, for each of them we used mycelium from different fungi, which resulted in pieces with different colourations. The course was dictated in the framework of the University of Buenos Aires, and the picture is the result of the collective work.",
+  //   images: [
+  //     {
+  //       id: 1,
+  //       name: "uno",
+  //       href: "/img/sustainability/sistemas_materiales/1.jpg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "dos",
+  //       href: "/img/sustainability/sistemas_materiales/2.jpg",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "tres",
+  //       href: "/img/sustainability/sistemas_materiales/1.jpg",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "cuatro",
+  //       href: "/img/sustainability/sistemas_materiales/4.jpg",
+  //     },
+  //     {
+  //       id: 5,
+  //       name: "cinco",
+  //       href: "/img/sustainability/sistemas_materiales/5.jpg",
+  //     },
+  //   ],
+  //   tookPartIn: ["Experimenting with mushrooms", "Growing materials"],
+  //   programs: [],
+  // },
   {
     name: "Première Vision Eco-responsible forum",
     slug: "premiere-vision-eco-responsible-forum",

@@ -26,21 +26,24 @@ const colorTheme = computed(() => {
     <div
       class="absolute inset-y-0 right-0 z-30 mt-16 mr-12 lg:mt-6 cursor-mano lg:mr-32"
     >
-      <div class="fixed space-y-4">
-        <div
+      <div class="space-y-4 flex flex-col">
+        <button
+          type="button"
           @click="themeColor = 'theme-blue'"
           class="w-5 h-5 transition duration-200 transform border shadow-lg bg-bluejuli border-bluejuli hover:scale-110 hover:-rotate-45 cursor-mano"
-        ></div>
+        ></button>
 
-        <div
+        <button
+          type="button"
           @click="themeColor = 'theme-yellow'"
           class="w-5 h-5 transition duration-200 transform border shadow-lg border-yellowjuli bg-yellowjuli hover:scale-110 hover:-rotate-45 cursor-mano"
-        ></div>
+        ></button>
 
-        <div
+        <button
+          type="button"
           @click="themeColor = 'theme-red'"
           class="w-5 h-5 transition duration-200 transform border shadow-lg border-redjuli bg-redjuli hover:scale-110 hover:-rotate-45 cursor-mano"
-        ></div>
+        ></button>
 
         <div class="focus:outline-none" @click="moove = !moove">
           <!-- py-3 mt-6 -ml-6 text-xs lg:text-base -->
@@ -67,51 +70,98 @@ const colorTheme = computed(() => {
         </div>
       </div>
     </div>
-
     <div
-      class="relative flex w-full h-screen font-bold text-black text-8xl md:text-9xl md:h-1/3"
+      class="relative flex w-full h-screen font-bold text-black text-3xl md:text-6xl md:h-2/3"
     >
       <div
-        class="absolute origin-center top-[10%] left-[45%] md:top-[-22%] md:left-[45%] hover:animate-pause"
-        :class="{ 'animate-mobileLetterP md:animate-letterP': moove }"
+        class="absolute origin-center top-[10%] left-[10%] md:top-[10%] md:left-[10%] hover:animate-pause"
+        :class="{ 'animate-mobileLetterD md:animate-letterD': moove }"
       >
-        P
+        D
       </div>
       <div
-        class="absolute origin-center rotate-90 top-[25%] left-[22%] md:top-[0%] md:left-[25%] hover:animate-pause"
+        class="absolute origin-center rotate-90 top-[15%] left-[35%] md:top-[5%] md:left-[15%] hover:animate-pause"
         :class="{ 'animate-mobileLetterE md:animate-letterE': moove }"
       >
         E
       </div>
       <div
-        class="absolute origin-center top-[37%] left-[4%] md:top-[25%] md:left-[5%] hover:animate-pause"
-        :class="{ 'animate-mobileLetterR md:animate-letterR': moove }"
-      >
-        R
-      </div>
-      <div
-        class="absolute origin-center rotate-90 top-[50%] left-[25%] md:top-[55%] md:left-[25%] hover:animate-pause"
-        :class="{ 'animate-mobileLetterS md:animate-letterS': moove }"
-      >
-        S
-      </div>
-      <div
-        class="absolute origin-center top-[63%] left-[45%] md:top-[70%] md:left-[45%] hover:animate-pause"
-        :class="{ 'animate-mobileLetterO md:animate-letterO': moove }"
-      >
-        O
-      </div>
-      <div
-        class="absolute origin-center top-[40%] left-[65%] md:top-[0%] md:left-[70%] hover:animate-pause"
+        class="absolute origin-center top-[20%] left-[45%] md:top-[20%] md:left-[25%] hover:animate-pause"
         :class="{ 'animate-mobileLetterN md:animate-letterN': moove }"
       >
         N
       </div>
       <div
-        class="absolute -rotate-90 origin-center top-[25%] left-[65%] md:top-[55%] md:left-[70%] hover:animate-pause"
+        class="absolute origin-center rotate-90 top-[25%] left-[55%] md:top-[25%] md:left-[35%] hover:animate-pause"
+        :class="{ 'animate-mobileLetterI md:animate-letterI': moove }"
+      >
+        I
+      </div>
+      <div
+        class="absolute origin-center top-[30%] left-[65%] md:top-[40%] md:left-[55%] hover:animate-pause"
+        :class="{ 'animate-mobileLetterM md:animate-letterM': moove }"
+      >
+        M
+      </div>
+      <div
+        class="absolute origin-center top-[10%] left-[75%] md:top-[10%] md:left-[75%] hover:animate-pause text-slate-700"
+        :class="{ 'animate-mobileLetterC md:animate-letterC': moove }"
+      >
+        C
+      </div>
+      <div
+        class="absolute -rotate-90 origin-center top-[50%] left-[85%] md:top-[50%] md:left-[85%] hover:animate-pause text-slate-700"
+        :class="{ 'animate-mobileLetterO md:animate-letterO': moove }"
+      >
+        O
+      </div>
+      <div
+        class="absolute origin-center top-[60%] left-[75%] md:top-[25%] md:left-[55%] hover:animate-pause text-slate-700"
+        :class="{ 'animate-mobileLetterN md:animate-letterN': moove }"
+      >
+        N
+      </div>
+      <div
+        class="absolute origin-center rotate-90 top-[70%] left-[55%] md:top-[70%] md:left-[55%] hover:animate-pause text-slate-700"
+        :class="{ 'animate-mobileLetterS md:animate-letterS': moove }"
+      >
+        S
+      </div>
+      <div
+        class="absolute origin-center top-[75%] left-[45%] md:top-[75%] md:left-[45%] hover:animate-pause text-slate-700"
+        :class="{ 'animate-mobileLetterU md:animate-letterU': moove }"
+      >
+        U
+      </div>
+      <div
+        class="absolute rotate-90 origin-center top-[85%] left-[35%] md:top-[85%] md:left-[35%] hover:animate-pause text-slate-700"
+        :class="{ 'animate-mobileLetterL md:animate-letterL': moove }"
+      >
+        L
+      </div>
+      <div
+        class="absolute origin-center top-[90%] left-[25%] md:top-[90%] md:left-[25%] hover:animate-pause text-slate-700"
+        :class="{ 'animate-mobileLetterT md:animate-letterT': moove }"
+      >
+        T
+      </div>
+      <div
+        class="absolute origin-center top-[85%] left-[15%] md:top-[85%] md:left-[15%] hover:animate-pause text-slate-700"
         :class="{ 'animate-mobileLetterA md:animate-letterA': moove }"
       >
         A
+      </div>
+      <div
+        class="absolute -rotate-90 origin-center top-[70%] left-[5%] md:top-[70%] md:left-[5%] hover:animate-pause text-slate-700"
+        :class="{ 'animate-mobileLetterN md:animate-letterN': moove }"
+      >
+        N
+      </div>
+      <div
+        class="absolute rotate-90 origin-center top-[60%] left-[5%] md:top-[50%] md:left-[15%] hover:animate-pause text-slate-700"
+        :class="{ 'animate-mobileLetterT md:animate-letterT': moove }"
+      >
+        T
       </div>
     </div>
   </div>

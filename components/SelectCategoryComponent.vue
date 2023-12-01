@@ -3,13 +3,13 @@ import { ref } from "vue";
 import { selectedCategory, categories } from "@/stores/WorkStore.js";
 import {
   Listbox,
-  ListboxLabel,
   ListboxButton,
   ListboxOptions,
   ListboxOption,
 } from "@headlessui/vue";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/vue/20/solid";
 </script>
+
 <template>
   <div class="w-full">
     <Listbox v-model="selectedCategory">

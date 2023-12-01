@@ -57,20 +57,30 @@ module.exports = {
       },
       animation: {
         appearLettersStart: "appearLettersStart 1.5s ease-in forwards",
-        letterP: "letterP 6.4s ease-in-out 1 forwards running",
+        letterD: "letterD 6.4s ease-in-out 1 forwards running",
         letterE: "letterE 5.6s ease-in-out 1 forwards running",
-        letterR: "letterR 6.1s ease-in-out 1 forwards running",
-        letterS: "letterS 5.3s ease-in-out 1 forwards running",
-        letterO: "letterO 6s ease-in-out 1 forwards running",
-        letterN: "letterN 6.2s ease-in-out 1 forwards running",
-        letterA: "letterA 5.9s ease-in-out 1 forwards running",
-        mobileLetterP: "mobileLetterP 6.4s ease-in-out 1 forwards running",
+        letterN: "letterN 6.1s ease-in-out 1 forwards running",
+        letterI: "letterI 5.3s ease-in-out 1 forwards running",
+        letterM: "letterM 6s ease-in-out 1 forwards running",
+        letterC: "letterC 6.2s ease-in-out 1 forwards running",
+        letterO: "letterO 6.3s ease-in-out 1 forwards running",
+        letterU: "letterU 5.5s ease-in-out 1 forwards running",
+        letterS: "letterS 5.7s ease-in-out 1 forwards running",
+        letterL: "letterL 6.1s ease-in-out 1 forwards running",
+        letterT: "letterT 6.3s ease-in-out 1 forwards running",
+        letterA: "letterA 6.5s ease-in-out 1 forwards running",
+        mobileLetterD: "mobileLetterD 6.4s ease-in-out 1 forwards running",
         mobileLetterE: "mobileLetterE 5.6s ease-in-out 1 forwards running",
-        mobileLetterR: "mobileLetterR 6.1s ease-in-out 1 forwards running",
-        mobileLetterS: "mobileLetterS 5.3s ease-in-out 1 forwards running",
-        mobileLetterO: "mobileLetterO 6s ease-in-out 1 forwards running",
-        mobileLetterN: "mobileLetterN 6.2s ease-in-out 1 forwards running",
-        mobileLetterA: "mobileLetterA 5.9s ease-in-out 1 forwards running",
+        mobileLetterN: "mobileLetterN 6.1s ease-in-out 1 forwards running",
+        mobileLetterI: "mobileLetterI 5.3s ease-in-out 1 forwards running",
+        mobileLetterM: "mobileLetterM 6s ease-in-out 1 forwards running",
+        mobileLetterC: "mobileLetterC 6.2s ease-in-out 1 forwards running",
+        mobileLetterO: "mobileLetterO 6.3s ease-in-out 1 forwards running",
+        mobileLetterU: "mobileLetterU 5.5s ease-in-out 1 forwards running",
+        mobileLetterS: "mobileLetterS 5.7s ease-in-out 1 forwards running",
+        mobileLetterL: "mobileLetterL 6.1s ease-in-out 1 forwards running",
+        mobileLetterT: "mobileLetterT 6.3s ease-in-out 1 forwards running",
+        mobileLetterA: "mobileLetterA 6.5s ease-in-out 1 forwards running",
       },
       keyframes: {
         appearLettersStart: {
@@ -81,7 +91,7 @@ module.exports = {
             opacity: "1",
           },
         },
-        letterP: {
+        letterD: {
           "0%": {
             transform: "translate(0) rotate(0)",
           },
@@ -101,52 +111,97 @@ module.exports = {
             transform: "translate(210%, -65%)  rotate(90deg)",
           },
         },
-        letterR: {
+        letterN: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(300%, -60%) rotate(360deg)",
+            transform: "translate(-420%, -70%) rotate(360deg)",
           },
           "100%": {
-            transform: "translate(40%, 28%) rotate(0deg)",
+            transform: "translate(180%, -5%) rotate(0deg)",
           },
         },
-        letterS: {
+        letterI: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(300%, -30%)  rotate(-90deg)",
+            transform: "translate(50%, -160%) rotate(-360deg)",
           },
           "100%": {
-            transform: "translate(60%, -40%) rotate(90deg)",
+            transform: "translate(-20%, 50%) rotate(0deg)",
+          },
+        },
+        letterM: {
+          "0%": {},
+          "40%, 60%": {
+            transform: "translate(380%, 190%) rotate(360deg)",
+          },
+          "100%": {
+            transform: "translate(-200%, -25%) rotate(0deg)",
+          },
+        },
+        letterC: {
+          "0%": {},
+          "40%, 60%": {
+            transform: "translate(-80%, -300%) rotate(-360deg)",
+          },
+          "100%": {
+            transform: "translate(50%, 70%) rotate(0deg)",
           },
         },
         letterO: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(170%, -125%) rotate(720deg)",
+            transform: "translate(150%, -500%) rotate(720deg)",
           },
           "100%": {
-            transform: "translate(-170%, 0%)  rotate(0deg)",
+            transform: "translate(-50%, 0%)  rotate(0deg)",
           },
         },
-        letterN: {
+        letterU: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(-180%, -50%)  rotate(360deg)",
+            transform: "translate(500%, -120%) rotate(-360deg)",
           },
           "100%": {
-            transform: "translate(-230%, 86%)  rotate(0deg)",
+            transform: "translate(-30%, 5%) rotate(0deg)",
+          },
+        },
+        letterS: {
+          "0%": {},
+          "40%, 60%": {
+            transform: "translate(-450%, -250%) rotate(360deg)",
+          },
+          "100%": {
+            transform: "translate(80%, 30%) rotate(0deg)",
+          },
+        },
+        letterL: {
+          "0%": {},
+          "40%, 60%": {
+            transform: "translate(-160%, 240%) rotate(-360deg)",
+          },
+          "100%": {
+            transform: "translate(20%, -30%) rotate(0deg)",
+          },
+        },
+        letterT: {
+          "0%": {},
+          "40%, 60%": {
+            transform: "translate(600%, 80%) rotate(360deg)",
+          },
+          "100%": {
+            transform: "translate(-30%, -50%) rotate(90deg)",
           },
         },
         letterA: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(-650%, -115%) rotate(-360deg)",
+            transform: "translate(250%, -600%) rotate(-360deg)",
           },
           "100%": {
-            transform: "translate(0%, -1%) rotate(0deg)",
+            transform: "translate(0%, -1%) rotate(45deg)",
           },
         },
-        mobileLetterP: {
+        mobileLetterD: {
           "0%": {
             transform: "translate(0) rotate(0)",
           },
@@ -166,7 +221,7 @@ module.exports = {
             transform: "translate(50%,-60%)  rotate(90deg)",
           },
         },
-        mobileLetterR: {
+        mobileLetterN: {
           "0%": {},
           "40%, 60%": {
             transform: "translate(20%, -90%)  rotate(270deg) ",
@@ -175,7 +230,7 @@ module.exports = {
             transform: "translate(0%, 27%) rotate(0deg)",
           },
         },
-        mobileLetterS: {
+        mobileLetterI: {
           "0%": {},
           "40%, 60%": {
             transform: "translate(170%, -280%)  rotate(360deg)",
@@ -184,7 +239,7 @@ module.exports = {
             transform: "translate(60%, 10%)  rotate(90deg)",
           },
         },
-        mobileLetterO: {
+        mobileLetterM: {
           "0%": {},
           "40%, 60%": {
             transform: "translate(-60%, -200%)  rotate(360deg)",
@@ -193,7 +248,7 @@ module.exports = {
             transform: "translate( -77%, 20%) rotate(0deg)",
           },
         },
-        mobileLetterN: {
+        mobileLetterC: {
           "0%": {},
           "40%, 60%": {
             transform: "translate( 20%, 180%) rotate(90deg) ",
@@ -202,7 +257,70 @@ module.exports = {
             transform: "translate(-65%, 10%) rotate(0deg)",
           },
         },
+        mobileLetterO: {
+          "0%": {},
+          "40%, 60%": {
+            transform: "translate(-180%, 120%) rotate(180deg)",
+          },
+          "100%": {
+            transform: "translate(10%, -103%) rotate(0deg)",
+          },
+        },
+        mobileLetterU: {
+          "0%": {},
+          "40%, 60%": {
+            transform: "translate(180%, -50%) rotate(-360deg)",
+          },
+          "100%": {
+            transform: "translate(0%, -1%) rotate(0deg)",
+          },
+        },
+        mobileLetterS: {
+          "0%": {},
+          "40%, 60%": {
+            transform: "translate(-650%, -115%) rotate(0deg)",
+          },
+          "100%": {
+            transform: "translate(10%, -103%) rotate(0deg)",
+          },
+        },
+        mobileLetterL: {
+          "0%": {},
+          "40%, 60%": {
+            transform: "translate(20%, 120%) rotate(180deg)",
+          },
+          "100%": {
+            transform: "translate(-65%, 10%) rotate(0deg)",
+          },
+        },
+        mobileLetterT: {
+          "0%": {},
+          "40%, 60%": {
+            transform: "translate(-180%, 120%) rotate(180deg)",
+          },
+          "100%": {
+            transform: "translate(10%, -103%) rotate(0deg)",
+          },
+        },
         mobileLetterA: {
+          "0%": {},
+          "40%, 60%": {
+            transform: "translate(180%, 120%) rotate(180deg)",
+          },
+          "100%": {
+            transform: "translate(-65%, 10%) rotate(0deg)",
+          },
+        },
+        mobileLetterN: {
+          "0%": {},
+          "40%, 60%": {
+            transform: "translate(20%, 120%) rotate(180deg)",
+          },
+          "100%": {
+            transform: "translate(-65%, 10%) rotate(0deg)",
+          },
+        },
+        mobileLetterT: {
           "0%": {},
           "40%, 60%": {
             transform: "translate(-180%, 120%) rotate(180deg)",

@@ -12,7 +12,7 @@
         <ul class="flex items-center justify-center space-x-6">
           <li>
             <a
-              href="https://www.instagram.com/personamercerat/"
+              href="https://www.instagram.com/julieta_mercerat/"
               class="hover:text-gray-500 cursor-mano"
             >
               <svg

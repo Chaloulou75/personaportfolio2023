@@ -4,8 +4,8 @@ import { onClickOutside } from "@vueuse/core";
 import { selectedCategory, categories } from "@/stores/WorkStore.js";
 
 const emit = defineEmits(["open-contact"]);
-const route = useRoute();
 
+const route = useRoute();
 const isOpen = ref(false);
 const target = ref(null);
 
@@ -13,9 +13,9 @@ onClickOutside(target, (event) => {
   isOpen.value = false;
 });
 
-function toggle() {
+const toggle = () => {
   isOpen.value = !isOpen.value;
-}
+};
 
 const openContactMe = () => {
   emit("open-contact");
@@ -24,11 +24,19 @@ const openContactMe = () => {
 <template>
   <div ref="target">
     <div
-      class="flex items-center justify-between px-4 py-2 text-gray-900 bg-white md:hidden"
+      class="flex items-center justify-between px-4 py-2 text-gray-900 md:hidden"
     >
       <!-- logo -->
       <NuxtLink to="/">
-        <LogoPersona
+        <!-- <LogoPersona
+          class="h-10 px-4 focus:outline-none cursor-mano"
+          :class="isOpen ? 'hidden' : ''"
+        /> -->
+        <!-- <LogoJm
+          class="h-10 px-4 focus:outline-none cursor-mano"
+          :class="isOpen ? 'hidden' : ''"
+        /> -->
+        <LogoJmLarge
           class="h-10 px-4 focus:outline-none cursor-mano"
           :class="isOpen ? 'hidden' : ''"
         />
@@ -79,31 +87,48 @@ const openContactMe = () => {
       <!-- logo -->
       <NuxtLink to="/">
         <span class="sr-only">Home</span>
-        <LogoPersona class="h-10 px-4 focus:outline-none cursor-mano" />
+        <!-- <LogoPersona class="h-10 px-4 focus:outline-none cursor-mano" /> -->
+        <LogoJm class="h-auto px-4 focus:outline-none cursor-mano" />
+        <!-- <LogoJmLarge class="h-10 px-4 focus:outline-none cursor-mano" /> -->
       </NuxtLink>
 
-      <!-- nav -->
       <nav>
         <NuxtLink
-          to="/works"
-          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-200 ease-in-out transform hover:translate-x-2 focus:outline-none"
-        >
-          Portfolio
-        </NuxtLink>
-        <NuxtLink
           to="/about"
-          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-200 ease-in-out transform hover:translate-x-2 focus:outline-none"
+          :class="[route.path === '/about' ? 'font-semibold' : '']"
+          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-200 ease-in-out transform hover:translate-x-2 focus:outline-none hover:font-semibold"
         >
           About
         </NuxtLink>
+        <NuxtLink
+          to="/services"
+          :class="[route.path === '/services' ? 'font-semibold' : '']"
+          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-200 ease-in-out transform hover:translate-x-2 focus:outline-none hover:font-semibold"
+        >
+          Services
+        </NuxtLink>
+        <NuxtLink
+          to="/projects"
+          :class="[route.path === '/projects' ? 'font-semibold' : '']"
+          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-200 ease-in-out transform hover:translate-x-2 focus:outline-none hover:font-semibold"
+        >
+          Projects
+        </NuxtLink>
+        <button
+          type="button"
+          @click="openContactMe"
+          class="cursor-mano block rounded py-2.5 px-4 uppercase transition duration-200 ease-in-out transform hover:translate-x-2 focus:outline-none hover:font-semibold"
+        >
+          Contact
+        </button>
       </nav>
 
-      <div class="hidden pt-16 md:block" v-if="route.path === '/works'">
+      <div class="hidden pt-4 md:block" v-if="route.path === '/projects'">
         <h3 class="px-4 my-3 font-semibold">Categories</h3>
         <SelectCategoryComponent />
       </div>
 
-      <div class="px-4 pt-10 mt-auto">
+      <!-- <div class="px-4 pt-10 mt-auto">
         <button
           type="button"
           @click="openContactMe"
@@ -123,7 +148,7 @@ const openContactMe = () => {
             />
           </svg>
         </button>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
