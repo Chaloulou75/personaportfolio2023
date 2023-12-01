@@ -1,14 +1,14 @@
 <template>
   <div class="mt-auto text-white bg-black">
     <div
-      class="flex flex-col items-center justify-between w-full px-3 py-6 text-xs text-gray-200 md:flex-row lg:flex-row"
+      class="flex flex-col items-center justify-between w-full px-3 py-2 md:py-6 text-xs text-gray-200 md:flex-row lg:flex-row"
     >
-      <div class="flex-1 order-2 py-4 lg:order-1">
+      <div class="flex-1 order-2 py-2 md:py-4 lg:order-1">
         &copy; <span class="text-gray-400"> Julieta Mercerat</span>
         {{ new Date().getFullYear() }}. all rights reserved.
       </div>
 
-      <div class="flex-1 order-1 py-4 lg:order-2">
+      <div class="flex-1 order-1 py-2 md:py-4 lg:order-2">
         <ul class="flex items-center justify-center space-x-6">
           <li>
             <a
@@ -134,7 +134,7 @@
         </ul>
       </div>
       <div
-        class="flex justify-end flex-1 order-last px-2 py-4 text-xs text-gray-200"
+        class="flex justify-end flex-1 order-last px-2 py-2 md:py-4 text-xs text-gray-200"
       >
         <p>
           Web Dev:
