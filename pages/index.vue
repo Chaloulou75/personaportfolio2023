@@ -20,7 +20,7 @@ const colorTheme = computed(() => {
 
 <template>
   <div
-    class="relative flex items-center justify-center flex-1 min-h-screen"
+    class="relative flex items-center justify-center flex-1 h-auto"
     :class="colorTheme"
   >
     <div
@@ -71,7 +71,7 @@ const colorTheme = computed(() => {
       </div>
     </div>
     <div
-      class="relative flex w-full h-screen font-bold text-black text-3xl md:text-6xl md:h-2/3"
+      class="relative min-h-full flex w-full font-bold text-black text-3xl md:text-6xl"
     >
       <div
         class="absolute origin-center top-[10%] left-[10%] md:top-[10%] md:left-[10%] hover:animate-pause"
@@ -152,7 +152,7 @@ const colorTheme = computed(() => {
         A
       </div>
       <div
-        class="absolute -rotate-90 origin-center top-[70%] left-[5%] md:top-[70%] md:left-[5%] hover:animate-pause text-slate-700"
+        class="absolute -rotate-90 origin-center top-[5%] left-[5%] md:top-[70%] md:left-[5%] hover:animate-pause text-slate-700"
         :class="{ 'animate-mobileLetterN md:animate-letterN': moove }"
       >
         N

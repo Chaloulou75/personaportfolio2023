@@ -3,6 +3,7 @@ import { ref } from "vue";
 import { TransitionRoot } from "@headlessui/vue";
 import { XMarkIcon } from "@heroicons/vue/24/outline";
 
+const route = useRoute();
 const showEmail = ref(false);
 
 const openEmail = () => {
@@ -15,9 +16,9 @@ const openEmail = () => {
   <NuxtLayout>
     <div
       class="relative flex flex-col justify-between min-h-screen bg-white font-montserrat cursor-flecha w-full"
-      :class="{ 'h-screen overflow-hidden': showEmail }"
+      :class="{ 'h-screen overflow-hidden': showEmail || route.path === '/' }"
     >
-      <div class="md:flex h-auto">
+      <div class="md:flex flex-1 h-auto">
         <NavigationComponent @open-contact="openEmail" />
         <NuxtPage @open-contact="openEmail" />
       </div>
