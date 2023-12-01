@@ -58,16 +58,16 @@ module.exports = {
       animation: {
         appearLettersStart: "appearLettersStart 1.5s ease-in forwards",
         letterD: "letterD 6.4s ease-in-out 1 forwards running",
-        letterE: "letterE 5.6s ease-in-out 1 forwards running",
+        letterE: "letterE 5.1s ease-in-out 1 forwards running",
         letterN: "letterN 6.1s ease-in-out 1 forwards running",
-        letterI: "letterI 5.3s ease-in-out 1 forwards running",
+        letterI: "letterI 5.7s ease-in-out 1 forwards running",
         letterM: "letterM 6s ease-in-out 1 forwards running",
-        letterC: "letterC 6.2s ease-in-out 1 forwards running",
-        letterO: "letterO 6.3s ease-in-out 1 forwards running",
-        letterU: "letterU 5.5s ease-in-out 1 forwards running",
-        letterS: "letterS 5.7s ease-in-out 1 forwards running",
-        letterL: "letterL 6.1s ease-in-out 1 forwards running",
-        letterT: "letterT 6.3s ease-in-out 1 forwards running",
+        letterC: "letterC 6.3s ease-in-out 1 forwards running",
+        letterO: "letterO 5.8s ease-in-out 1 forwards running",
+        letterU: "letterU 5s ease-in-out 1 forwards running",
+        letterS: "letterS 7s ease-in-out 1 forwards running",
+        letterL: "letterL 6.8s ease-in-out 1 forwards running",
+        letterT: "letterT 5.3s ease-in-out 1 forwards running",
         letterA: "letterA 6.5s ease-in-out 1 forwards running",
         mobileLetterD: "mobileLetterD 6.4s ease-in-out 1 forwards running",
         mobileLetterE: "mobileLetterE 5.6s ease-in-out 1 forwards running",
@@ -96,10 +96,10 @@ module.exports = {
             transform: "translate(0) rotate(0)",
           },
           "40%, 60%": {
-            transform: "translate(-400%, 200%) rotate(360deg)",
+            transform: "translate(400%, 200%) rotate(360deg)",
           },
           "100%": {
-            transform: "translate(150%, 15%) rotate(0deg)",
+            transform: "translate(150%, 115%) rotate(-90deg)",
           },
         },
         letterE: {
@@ -108,7 +108,7 @@ module.exports = {
             transform: "translate(-40%, 80%) rotate(-90deg)",
           },
           "100%": {
-            transform: "translate(210%, -65%)  rotate(90deg)",
+            transform: "translate(310%, -325%)  rotate(90deg)",
           },
         },
         letterN: {
@@ -117,7 +117,7 @@ module.exports = {
             transform: "translate(-420%, -70%) rotate(360deg)",
           },
           "100%": {
-            transform: "translate(180%, -5%) rotate(0deg)",
+            transform: "translate(-100%, 400%) rotate(-810deg)",
           },
         },
         letterI: {
@@ -126,7 +126,7 @@ module.exports = {
             transform: "translate(50%, -160%) rotate(-360deg)",
           },
           "100%": {
-            transform: "translate(-20%, 50%) rotate(0deg)",
+            transform: "translate(-20%, 50%) rotate(180deg)",
           },
         },
         letterM: {
@@ -135,25 +135,25 @@ module.exports = {
             transform: "translate(380%, 190%) rotate(360deg)",
           },
           "100%": {
-            transform: "translate(-200%, -25%) rotate(0deg)",
+            transform: "translate(-200%, -25%) rotate(90deg)",
           },
         },
         letterC: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(-80%, -300%) rotate(-360deg)",
+            transform: "translate(-80%, 300%) rotate(-360deg)",
           },
           "100%": {
-            transform: "translate(50%, 70%) rotate(0deg)",
+            transform: "translate(50%, 70%) rotate(-90deg)",
           },
         },
         letterO: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(150%, -500%) rotate(720deg)",
+            transform: "translate(650%, -400%) rotate(720deg)",
           },
           "100%": {
-            transform: "translate(-50%, 0%)  rotate(0deg)",
+            transform: "translate(1200%, -200%) rotate(-90deg)",
           },
         },
         letterU: {
@@ -162,7 +162,7 @@ module.exports = {
             transform: "translate(500%, -120%) rotate(-360deg)",
           },
           "100%": {
-            transform: "translate(-30%, 5%) rotate(0deg)",
+            transform: "translate(-30%, 5%) rotate(360deg)",
           },
         },
         letterS: {
@@ -209,13 +209,13 @@ module.exports = {
             transform: "translate(80%, 200%) rotate(270deg)",
           },
           "100%": {
-            transform: "translate(10%, 90%) rotate(0deg)",
+            transform: "translate(10%, 90%) rotate(360deg)",
           },
         },
         mobileLetterE: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(-60%, 170%)  rotate(0deg)",
+            transform: "translate(-60%, 170%)  rotate(-360deg)",
           },
           "100%": {
             transform: "translate(50%,-60%)  rotate(90deg)",
@@ -224,10 +224,10 @@ module.exports = {
         mobileLetterN: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(20%, -90%)  rotate(270deg) ",
+            transform: "translate(80%, -90%)  rotate(270deg) ",
           },
           "100%": {
-            transform: "translate(0%, 27%) rotate(0deg)",
+            transform: "translate(-20%, 270%) rotate(-720deg)",
           },
         },
         mobileLetterI: {
@@ -245,7 +245,7 @@ module.exports = {
             transform: "translate(-60%, -200%)  rotate(360deg)",
           },
           "100%": {
-            transform: "translate( -77%, 20%) rotate(0deg)",
+            transform: "translate( -77%, 20%) rotate(-180deg)",
           },
         },
         mobileLetterC: {
@@ -254,7 +254,7 @@ module.exports = {
             transform: "translate( 20%, 180%) rotate(90deg) ",
           },
           "100%": {
-            transform: "translate(-65%, 10%) rotate(0deg)",
+            transform: "translate(-65%, 10%) rotate(-90deg)",
           },
         },
         mobileLetterO: {
@@ -263,7 +263,7 @@ module.exports = {
             transform: "translate(-180%, 120%) rotate(180deg)",
           },
           "100%": {
-            transform: "translate(10%, -103%) rotate(0deg)",
+            transform: "translate(10%, -103%) rotate(180deg)",
           },
         },
         mobileLetterU: {
@@ -272,16 +272,16 @@ module.exports = {
             transform: "translate(180%, -50%) rotate(-360deg)",
           },
           "100%": {
-            transform: "translate(0%, -1%) rotate(0deg)",
+            transform: "translate(0%, -1%) rotate(-360deg)",
           },
         },
         mobileLetterS: {
           "0%": {},
           "40%, 60%": {
-            transform: "translate(-650%, -115%) rotate(0deg)",
+            transform: "translate(-650%, -115%) rotate(90deg)",
           },
           "100%": {
-            transform: "translate(10%, -103%) rotate(0deg)",
+            transform: "translate(10%, -103%) rotate(-360deg)",
           },
         },
         mobileLetterL: {
@@ -290,7 +290,7 @@ module.exports = {
             transform: "translate(20%, 120%) rotate(180deg)",
           },
           "100%": {
-            transform: "translate(-65%, 10%) rotate(0deg)",
+            transform: "translate(-65%, 10%) rotate(90deg)",
           },
         },
         mobileLetterT: {
@@ -299,7 +299,7 @@ module.exports = {
             transform: "translate(-180%, 120%) rotate(180deg)",
           },
           "100%": {
-            transform: "translate(10%, -103%) rotate(0deg)",
+            transform: "translate(10%, -103%) rotate(-360deg)",
           },
         },
         mobileLetterA: {
@@ -308,7 +308,7 @@ module.exports = {
             transform: "translate(180%, 120%) rotate(180deg)",
           },
           "100%": {
-            transform: "translate(-65%, 10%) rotate(0deg)",
+            transform: "translate(-65%, 10%) rotate(-90deg)",
           },
         },
         mobileLetterN: {
@@ -317,7 +317,7 @@ module.exports = {
             transform: "translate(20%, 120%) rotate(180deg)",
           },
           "100%": {
-            transform: "translate(-65%, 10%) rotate(0deg)",
+            transform: "translate(-65%, 10%) rotate(-360deg)",
           },
         },
         mobileLetterT: {
