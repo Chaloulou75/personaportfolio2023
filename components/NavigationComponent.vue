@@ -33,7 +33,7 @@ const openContactMe = () => {
           :class="isOpen ? 'hidden' : ''"
         /> -->
         <LogoJm
-          class="h-10 px-4 focus:outline-none cursor-mano"
+          class="h-20 px-2 focus:outline-none cursor-mano"
           :class="isOpen ? 'hidden' : ''"
         />
         <!-- <LogoJmLarge
@@ -81,7 +81,7 @@ const openContactMe = () => {
 
     <!-- sidebar -->
     <div
-      class="absolute inset-y-0 left-0 z-30 px-2 py-6 space-y-6 text-gray-700 transition duration-200 ease-in-out bg-white w-44 md:w-56 sidebar bg-opacity-90 md:relative md:translate-x-0"
+      class="absolute inset-y-0 left-0 z-30 px-2 py-2 space-y-6 text-gray-700 transition duration-200 ease-in-out bg-white w-44 md:w-56 sidebar bg-opacity-90 md:relative md:translate-x-0"
       :class="isOpen ? '' : '-translate-x-full'"
     >
       <!-- logo -->
