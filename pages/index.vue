@@ -20,7 +20,7 @@ const colorTheme = computed(() => {
 
 <template>
   <div
-    class="relative flex items-center justify-center flex-1 h-full"
+    class="relative flex items-center justify-center flex-1 h-auto"
     :class="colorTheme"
   >
     <div
@@ -71,7 +71,7 @@ const colorTheme = computed(() => {
       </div>
     </div>
     <div
-      class="flex-1 min-h-full flex w-full font-bold text-black text-4xl md:text-6xl"
+      class="flex-1 min-h-fit flex w-full font-bold text-black text-4xl md:text-6xl"
     >
       <div
         class="absolute origin-center top-[10%] left-[10%] md:top-[10%] md:left-[10%] hover:animate-pause"

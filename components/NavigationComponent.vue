@@ -24,7 +24,7 @@ const openContactMe = () => {
 <template>
   <div ref="target">
     <div
-      class="flex items-center justify-between px-4 py-2 text-gray-900 md:hidden"
+      class="flex items-start h-28 justify-between px-4 py-4 text-gray-900 md:hidden"
     >
       <!-- logo -->
       <NuxtLink to="/">
@@ -33,7 +33,7 @@ const openContactMe = () => {
           :class="isOpen ? 'hidden' : ''"
         /> -->
         <LogoJm
-          class="h-20 px-2 focus:outline-none cursor-mano"
+          class="h-20 focus:outline-none cursor-mano"
           :class="isOpen ? 'hidden' : ''"
         />
         <!-- <LogoJmLarge
