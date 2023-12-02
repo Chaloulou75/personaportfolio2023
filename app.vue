@@ -16,9 +16,9 @@ const openEmail = () => {
   <NuxtLayout>
     <div
       class="relative flex flex-col justify-between min-h-screen bg-white font-montserrat cursor-flecha w-full"
-      :class="{ 'h-screen overflow-hidden': showEmail || route.path === '/' }"
+      :class="{ 'h-screen overflow-hidden': showEmail }"
     >
-      <div class="md:flex flex-1 h-auto">
+      <div class="flex flex-col md:flex-row h-full flex-1">
         <NavigationComponent @open-contact="openEmail" />
         <NuxtPage @open-contact="openEmail" />
       </div>

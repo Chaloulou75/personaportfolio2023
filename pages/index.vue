@@ -19,10 +19,7 @@ const colorTheme = computed(() => {
 </script>
 
 <template>
-  <div
-    class="relative flex items-center justify-center flex-1 h-auto"
-    :class="colorTheme"
-  >
+  <div class="relative flex-1" :class="colorTheme">
     <div
       class="absolute inset-y-0 right-0 z-30 mt-16 mr-12 lg:mt-6 cursor-mano lg:mr-32"
     >
@@ -70,9 +67,7 @@ const colorTheme = computed(() => {
         </div>
       </div>
     </div>
-    <div
-      class="flex-1 min-h-fit flex w-full font-bold text-black text-4xl md:text-6xl"
-    >
+    <div class="w-full font-bold text-black text-4xl md:text-6xl">
       <div
         class="absolute origin-center top-[10%] left-[10%] md:top-[10%] md:left-[10%] hover:animate-pause"
         :class="{ 'animate-mobileLetterD md:animate-letterD': moove }"
